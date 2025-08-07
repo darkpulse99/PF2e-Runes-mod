@@ -1,4 +1,4 @@
-# PF2e Runes
+# PF2e Runes mod
 
 This mod adds the rune system from Pathfinder 2e. Addon to the Pathfinder 2nd Edition mod by InstantMirage and DPhKraken.
 
