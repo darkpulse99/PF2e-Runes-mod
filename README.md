@@ -1,5 +1,4 @@
-# PF2e-Runes-mod
-Pief Tooie Roons
+# PF2e Runes
 
 This mod adds the rune system from Pathfinder 2e. Addon to the Pathfinder 2nd Edition mod by InstantMirage and DPhKraken.
 
