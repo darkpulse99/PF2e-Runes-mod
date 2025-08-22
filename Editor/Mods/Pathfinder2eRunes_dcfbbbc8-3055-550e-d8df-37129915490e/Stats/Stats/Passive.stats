@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ceba14e-bb9f-4c3d-b23d-22e991b708ec" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneRules" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he122d84eg9d40g6f87g33c7gd89753029e75" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RUNE_ALL_UNLOCK,100,-1)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not HasStatus('RUNE_ALL_UNLOCK',context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="037e5645-8a00-40fe-b2aa-5d560d7483fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneRules_Test" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h05e1110agef19ga47ag8fa0g6c117aa69413" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MagicWeapon);UnlockSpell(Target_MagicWeapon_6);UnlockSpell(Target_ClearRunes_Container);UnlockSpell(Target_RuneWeaponPotency);UnlockSpell(Target_RuneWeaponPotency_2);UnlockSpell(Target_RuneStriking);UnlockSpell(Target_RuneStriking_Greater);UnlockSpell(Target_RuneArmorPotency);UnlockSpell(Target_RuneArmorPotency_2);UnlockSpell(Target_RuneResilient);UnlockSpell(Target_RuneReinforcing);UnlockSpell(Target_RuneCrushing);UnlockSpell(Target_RuneCrushing_Greater);UnlockSpell(Target_RuneReturning);UnlockSpell(Target_RuneBane_Aberration);UnlockSpell(Target_RuneBane_Beast);UnlockSpell(Target_RuneBane_Construct);UnlockSpell(Target_RuneBane_Dragon);UnlockSpell(Target_RuneBane_Elemental);UnlockSpell(Target_RuneBane_Fiend);UnlockSpell(Target_RuneBane_Monstrosity);UnlockSpell(Target_RuneVitalizing);UnlockSpell(Target_RuneFearsome);UnlockSpell(Target_RuneFearsome_Greater);UnlockSpell(Target_RuneWounding);UnlockSpell(Target_RuneCorrosive);UnlockSpell(Target_RuneFlaming);UnlockSpell(Target_RuneFrost);UnlockSpell(Target_RuneShock);UnlockSpell(Target_RuneThundering);UnlockSpell(Target_RuneExtending);UnlockSpell(Target_RuneImpactful);UnlockSpell(Target_RuneSerrating);UnlockSpell(Target_RuneHoly);UnlockSpell(Target_RuneHopeful);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RUNE_ALL_UNLOCK,100,-1)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not HasStatus('RUNE_ALL_UNLOCK',context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c2bd2a6a-8c22-4080-a49d-5439e133445f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Weapon_Potency" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hce95d4a5gb0bfg0790g8468g0661c753c55e" version="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('WEAPON_POTENCY',context.HitDescription.ThrownObject)):RollBonus(Attack,1);IF(IsMeleeUnarmedAttack() and HasStatus('WEAPON_POTENCY',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):RollBonus(Attack,1);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1de4d4b0-ba96-4fb5-a7ed-d3179136f08b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Weapon_Potency_2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h76bda1efg88e0g736bg54b2ga9547ba4a527" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('WEAPON_POTENCY_2',context.HitDescription.ThrownObject)):RollBonus(Attack,2);IF(IsMeleeUnarmedAttack() and HasStatus('WEAPON_POTENCY_2',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):RollBonus(Attack,2);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e8f869a-f818-4947-adf0-033f7a75e17e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Armor_Potency" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf5a3dd5g850eg0060g97cdg8e78e81bbfd1" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnInventoryChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('ARMOR_POTENCY',GetActiveArmor(context.Source))):ApplyStatus(ARMOR_POTENCY_ACBONUS,100,-1)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1bced16c-10a8-4038-bdfa-e6fc7bb67042" />
+        <field name="Name" type="NameTableFieldDefinition" value="Armor_Potency_2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="had9270eega75dgadebg3869ga53523cb19ee" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnInventoryChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('ARMOR_POTENCY_2',GetActiveArmor(context.Source))):ApplyStatus(SELF,ARMOR_POTENCY_2,100,-1);IF(not HasStatus('ARMOR_POTENCY_2_ACBONUS',GetActiveArmor(context.Source))):RemoveStatus(SELF,ARMOR_POTENCY_2_ACBONUS)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64d60a69-7a35-4f42-888a-7b4f0ff41f3e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Striking" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e48d56egb3d3gafd2gcf1ag14b2c6bc74f4" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnInventoryChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WieldingWeapon('Melee', false, false, context.Source)):ApplyEquipmentStatus(MeleeMainHand,STRIKING_TECHNICAL,100,-1);IF(WieldingWeapon('Melee', true, false, context.Source)):ApplyEquipmentStatus(MeleeOffHand,STRIKING_TECHNICAL,100,-1);IF(WieldingWeapon('Ammunition', false, false, context.Source)):ApplyEquipmentStatus(RangedMainHand,STRIKING_TECHNICAL,100,-1);IF(WieldingWeapon('Ammunition', true, false, context.Source)):ApplyEquipmentStatus(RangedOffHand,STRIKING_TECHNICAL,100,-1);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5355aec6-fa33-44e9-8df6-f517474b2730" />
+        <field name="Name" type="NameTableFieldDefinition" value="Striking_Greater" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ff204a5g17b0g1687g3112g529234bf87bd" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnInventoryChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,STRIKING_GREATER_TECHNICAL,100,-1);ApplyEquipmentStatus(MeleeOffHand,STRIKING_GREATER_TECHNICAL,100,-1);ApplyEquipmentStatus(RangedMainHand,STRIKING_GREATER_TECHNICAL,100,-1);ApplyEquipmentStatus(RangedOffHand,STRIKING_GREATER_TECHNICAL,100,-1);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="996c432e-8386-4089-8958-37fd472e6f63" />
+        <field name="Name" type="NameTableFieldDefinition" value="Crushing_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff3e29ddgb8d9g96a2g1b0dg5757cf93664b" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(CLUMSY,100,2);ApplyStatus(ENFEEBLED,100,2)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasStatus('RUNE_CRUSHING',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_CRUSHING',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_CRUSHING',context.HitDescription.ThrownObject)) and IsDamageTypeBludgeoning() and IsCritical();" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8205b56a-018d-4dd6-a261-98d9a54e5d26" />
+        <field name="Name" type="NameTableFieldDefinition" value="Crushing_Greater_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfecd1b5egadd4g811ag2d36gf1be27afb42d" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(CLUMSY2,100,2);ApplyStatus(ENFEEBLED_2,100,2)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasStatus('RUNE_CRUSHING_GREATER',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_CRUSHING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_CRUSHING_GREATER',context.HitDescription.ThrownObject)) and IsDamageTypeBludgeoning() and IsCritical();" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28f5d19d-3b9f-4c52-b273-57011602b8e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bane_Aberration_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0292599cg4a99g0bc8g848bg614ed59b60be" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((HasStatus('RUNE_BANE_ABERRATION',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_BANE_ABERRATION',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_BANE_ABERRATION',context.HitDescription.ThrownObject)) and Tagged('ABERRATION') and IsHit()):DamageBonus(1d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3757844-450f-4cc8-b67c-caaf624f32bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bane_Beast_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f95620dgc2cbg4f1bg707eg28d04fe630de" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((HasStatus('RUNE_BANE_BEAST',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_BANE_BEAST',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_BANE_BEAST',context.HitDescription.ThrownObject)) and Tagged('BEAST') and IsHit()):DamageBonus(1d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6d152546-fff5-46fd-95c0-76d8b5e09cbb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bane_Construct_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h306407a6g1c1dgaf13g5722ge338539d8a23" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((HasStatus('RUNE_BANE_CONSTRUCT',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_BANE_CONSTRUCT',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_BANE_CONSTRUCT',context.HitDescription.ThrownObject)) and Tagged('CONSTRUCT') and IsHit()):DamageBonus(1d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="545ad89b-7220-4802-96f5-fcc28d2e04c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bane_Dragon_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h70582d45g58acgc972g07a0g2f6e54777985" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((HasStatus('RUNE_BANE_DRAGON',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_BANE_DRAGON',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_BANE_DRAGON',context.HitDescription.ThrownObject)) and Tagged('DRAGON') and IsHit()):DamageBonus(1d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0060039e-7958-4640-9e30-b44cba25429e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bane_Elemental_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha72daff1g4a9bgd8f9gee7cg51e3642e1ce1" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((HasStatus('RUNE_BANE_ELEMENTAL',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_BANE_ELEMENTAL',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_BANE_ELEMENTAL',context.HitDescription.ThrownObject)) and Tagged('ELEMENTAL') and IsHit()):DamageBonus(1d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a4be3efe-023b-496d-8376-888d32c1b955" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bane_Fiend_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he65dbb65g597cg0e08g2331g816e4d26e093" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((HasStatus('RUNE_BANE_FIEND',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_BANE_FIEND',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_BANE_FIEND',context.HitDescription.ThrownObject)) and Tagged('FIEND') and IsHit()):DamageBonus(1d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="805ba511-d2a7-4a3d-8e85-372acbf70137" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bane_Monstrosity_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h560fdf55g6540gd28egbab2g2a8916797938" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((HasStatus('RUNE_BANE_MONSTROSITY',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_BANE_MONSTROSITY',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_BANE_MONSTROSITY',context.HitDescription.ThrownObject)) and Tagged('MONSTROSITY') and IsHit()):DamageBonus(1d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6465ddab-42f6-4ce2-a03c-91b6d5064aa3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fearsome_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28e7ea92g4d9dg4100gcf73g15326f1d72f2" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,1)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasAnyStatus({'RUNE_FEARSOME','BLESSEDARMAMENT_FEARSOME'},{},{},GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasAnyStatus({'RUNE_FEARSOME','BLESSEDARMAMENT_FEARSOME'},{},{},GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasAnyStatus({'RUNE_FEARSOME','BLESSEDARMAMENT_FEARSOME'},{},{},context.HitDescription.ThrownObject)) and IsCritical();" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="943bb469-e639-4514-a913-b6cc0cdc886a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fearsome_Greater_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h55eea4ccg0ca7g034bg991ag68f3e921e348" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,2)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasStatus('RUNE_FEARSOME_GREATER',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_FEARSOME_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_FEARSOME_GREATER',context.HitDescription.ThrownObject)) and IsCritical();" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0399a13-d5da-4060-a6c7-c32269556037" />
+        <field name="Name" type="NameTableFieldDefinition" value="Vitalizing_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72361094g88acg6a05g2722g1ae6054a219c" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and Tagged('UNDEAD') and (HasAnyStatus({'RUNE_VITALIZING','BLESSEDARMAMENT_VITALIZING'},{},{},GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasAnyStatus({'RUNE_VITALIZING','BLESSEDARMAMENT_VITALIZING'},{},{},GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasAnyStatus({'RUNE_VITALIZING','BLESSEDARMAMENT_VITALIZING'},{},{},context.HitDescription.ThrownObject)) and IsHit();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not IsCritical()):ApplyStatus(VITALIZING_STATUS,100,-1);IF(IsCritical()):ApplyStatus(VITALIZING_STATUS_CRIT,100,-1);IF(IsCritical()):ApplyStatus(ENFEEBLED,100,2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f665eb0a-c1d2-4a3d-9df4-f74dabb638d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wounding_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h16175006g8055g42e7g4108g68ebf3954f43" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not IsCritical()):ApplyStatus(BLEEDINGD6,100,-1);IF(IsCritical()):ApplyStatus(BLEEDINGD6_CRIT,100,-1)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasStatus('RUNE_WOUNDING',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_WOUNDING',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_WOUNDING',context.HitDescription.ThrownObject)) and (IsDamageTypePiercing() or IsDamageTypeSlashing()) and IsHit();" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab0b6ab2-040d-4ea9-8879-b9e137ae6984" />
+        <field name="Name" type="NameTableFieldDefinition" value="Corrosive_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25c35f8ega0d2g972cg70d6g5e64768a8dbd" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(CORROSIVE_STATUS,100,-1)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasStatus('RUNE_CORROSIVE',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_CORROSIVE',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_CORROSIVE',context.HitDescription.ThrownObject)) and IsCritical();" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((IsMeleeUnarmedAttack() and HasStatus('RUNE_CORROSIVE',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_CORROSIVE',context.HitDescription.ThrownObject)):DamageBonus(1d6,Acid);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="96d0b050-61ab-456f-915c-9aad24084305" />
+        <field name="Name" type="NameTableFieldDefinition" value="Flaming_Rune" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(D10Persistent_Fire,100,-1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e032b71g1559g49d5g9952ga2ade432fe30" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasStatus('RUNE_FLAMING',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_FLAMING',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_FLAMING',context.HitDescription.ThrownObject)) and IsCritical();" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((IsMeleeUnarmedAttack() and HasStatus('RUNE_FLAMING',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_FLAMING',context.HitDescription.ThrownObject)):DamageBonus(1d6,Fire);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b26d2db8-9090-4d14-9659-a43523065f38" />
+        <field name="Name" type="NameTableFieldDefinition" value="Frost_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8027d514g1aceg2015ge828g082710bb9f8b" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RUNE_FROST_TECHNICAL,100,0)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasStatus('RUNE_FROST',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_FROST',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_FROST',context.HitDescription.ThrownObject)) and IsCritical();" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((IsMeleeUnarmedAttack() and HasStatus('RUNE_FROST',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_FROST',context.HitDescription.ThrownObject)):DamageBonus(1d6,Cold);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da1261cc-a40a-431e-839c-bd925028a455" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shock_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbed1e22cg57acgcc33gb45fgf53a648f057b" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RUNE_SHOCK_TARGET,100,1);CreateExplosion(Projectile_Rune_Shock_Critical);ApplyStatus(SELF,RUNE_SHOCK_CRIT,100,1)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasStatus('RUNE_SHOCK',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_SHOCK',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_SHOCK',context.HitDescription.ThrownObject)) and IsCritical();" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((IsMeleeUnarmedAttack() and HasStatus('RUNE_SHOCK',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_SHOCK',context.HitDescription.ThrownObject)):DamageBonus(1d6,Lightning);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e680c00e-44c1-417d-944a-f6157dc0758e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Thundering_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he7eb3abdg9a1eg1677g4bcbgcf7c843e4786" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RUNE_THUNDERING_TECHNICAL,100,0)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasStatus('RUNE_THUNDERING',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_THUNDERING',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_THUNDERING',context.HitDescription.ThrownObject)) and IsCritical();" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((IsMeleeUnarmedAttack() and HasStatus('RUNE_THUNDERING',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_THUNDERING',context.HitDescription.ThrownObject)):DamageBonus(1d6,Thunder);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bf14853f-2eca-4114-a326-0efe5c9552ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="Extending_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6e7316fgf665g33afg606fgc0fb789edee9" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnInventoryChanged;OnCastResolved;OnCreate;OnStatusApply;OnStatusRemove" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(HasStatus('RUNE_EXTENDING',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source)) or HasStatus('RUNE_EXTENDING',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source)) or HasStatus('RUNE_EXTENDING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))) and not HasStatus('EXTENDING_TOGGLE',context.Source);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,EXTENDING_TOGGLE,100,-1)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe889406-ec26-44ad-85c2-b050ffe1aaa3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Extending_Toggle" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff2005d1g6fc3ga41egff27g3cef0d7e0dac" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;MetaMagic" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('RUNE_EXTENDING',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):UnlockSpellVariant(SpellId('Target_MainHandAttack'),ModifyTargetRadius(Override,18),ModifyUseCosts(Replace,ActionPoint,2,0,ActionPoint),ModifyTooltipDescription(),ModifyIconGlow());IF(HasStatus('RUNE_EXTENDING',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source))):UnlockSpellVariant(SpellId('Target_OffhandAttack'),ModifyTargetRadius(Override,18),ModifyUseCosts(Replace,ActionPoint,2,0,ActionPoint),ModifyTooltipDescription(),ModifyIconGlow());IF(HasStatus('RUNE_EXTENDING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):UnlockSpellVariant(MeleeUnarmedAttackCheck(),ModifyTargetRadius(Override,18),ModifyUseCosts(Replace,ActionPoint,2,0,ActionPoint),ModifyTooltipDescription(),ModifyIconGlow());" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h93f7962fg5a2bg734dg09c5ge65dbdfe7ef4" version="1" />
+        <field name="ToggleOffContext" type="EnumerationListTableFieldDefinition" value="OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_OpeningAttack" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="IF(Combat()):ApplyStatus(EXTENDING_AUTOTOGGLE_OFF)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(EXTENDING_AUTOTOGGLE_OFF)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="502dc13f-438b-4274-b380-775a09ead411" />
+        <field name="Name" type="NameTableFieldDefinition" value="Impactful_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f6fe56eg68abg0e57g36c7gc5b90beaa3fd" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnInventoryChanged;OnCreate;OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(RuneImpactful_Critical);IF((IsMeleeUnarmedAttack() and HasStatus('RUNE_IMPACTFUL',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_IMPACTFUL',context.HitDescription.ThrownObject)):DamageBonus(1d6,Force);" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="HasImpactfulWeapon(context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e03818a-a0fa-41db-9b01-fdbe3b3c19c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Serrating_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hffc8704ag1dcfgdee1gfd46gcb144a66015e" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnInventoryChanged;OnCreate;OnCast;OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF((HasStatus('RUNE_SERRATING',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_SERRATING',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_SERRATING',context.HitDescription.ThrownObject)) and not HasStatus('SERRATING_ACTIVE',context.Source) and IsDamageTypeSlashing()):DamageBonus(1d4);IF((HasStatus('RUNE_SERRATING',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_SERRATING',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_SERRATING',context.HitDescription.ThrownObject)) and HasStatus('SERRATING_ACTIVE',context.Source) and IsDamageTypeSlashing()):DamageBonus(1d12);IF(HasStatus('RUNE_SERRATING',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source)) or HasStatus('RUNE_SERRATING',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Source)) or HasStatus('RUNE_SERRATING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):UnlockSpell(Shout_Serrating_Activate);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasStatus('RUNE_SERRATING',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_SERRATING',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_SERRATING',context.HitDescription.ThrownObject)) and IsDamageTypeSlashing();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,SERRATING_ACTIVE)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a90fb91-a17d-4541-904b-bba025729632" />
+        <field name="Name" type="NameTableFieldDefinition" value="Holy_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7caa9dbcg28b1g47abg5d09gc92bf167ef97" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(RuneHoly_Critical);IF((HasStatus('RUNE_HOLY',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_HOLY',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_HOLY',context.HitDescription.ThrownObject)) and not (Tagged('FIEND') or Tagged('UNDEAD')) and IsHit()):DamageBonus(1d4,Force);IF((HasStatus('RUNE_HOLY',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_HOLY',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_HOLY',context.HitDescription.ThrownObject)) and (Tagged('FIEND') or Tagged('UNDEAD')) and IsHit()):DamageBonus(2d4,Force);" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnInventoryChanged;OnCreate;OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="HasHolyWeapon(context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b72a58ac-c5ed-4fd1-8daf-c837b6d15d53" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hopeful_Rune" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2d3cde8eg858ag7449g3737g594afb2ca2da" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and not Dead() and (HasStatus('RUNE_HOPEFUL',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_HOPEFUL',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_HOPEFUL',context.HitDescription.ThrownObject)) and IsCritical();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HOPEFUL_AURA,100,2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6585a1d5-7bfb-4f5c-aef0-988f64926e99" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeadlyD6" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heb1888a7g6c07g52acgcd1cg8bf2968b9a47" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLYD6,100,0);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLY2D6,100,0)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="45d38fa6-9451-4a54-bd21-c418b274add8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22c9af3d-de30-4ab5-ac90-5e59f5e92a6c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeadlyD8" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLYD8,100,0);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLY2D8,100,0)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="adbb4c09-f02a-4784-8da3-39901107a2e1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3beda1e7g9d72gf046g873agb68ec862d7af" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0bf9810-3a43-4f56-8921-035358293bd1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeadlyD8_Slashing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8210396c-6c8d-49eb-8500-4a01e965f98e" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLYD8_Slashing,100,0);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLY2D8_Slashing,100,0)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf323e830gac5eg23aegf806gc83291c63249" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b79efc9b-ee68-4dfb-9cba-4e940ade9fec" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeadlyD10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0f778fb2-9241-4cfa-bd86-1317689ed521" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLYD10,100,0);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLY2D10,100,0)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h333e0b64gcc81g42f9ga441gcf26c1da04d7" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="641f22d2-c750-47d1-bda2-7cf343e83a99" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeadlyD12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0dc74ecc-946e-436f-9db7-9e9c9ad200f6" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLYD12,100,0);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLY2D12,100,0)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1f5b1029g288agbb7eg754cg55ccd77f4f8a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aefb8db8-1a3d-4796-a085-75b92ff492f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MartialArts_BonusUnarmedStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfdff6563g7cadg1e42gd431g3aee53f75675" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha77abf4eg8141g574cg0361g2a97685db05d" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMonkUnarmedSpell() and HasActionResource('Flourish', 1, 0, false, false);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,MARTIAL_ARTS_BONUS_UNARMED_STRIKE,100,1)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MartialArts_BonusUnarmedStrike" />
+        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73a9f6dc-cc77-4902-b188-c2f2557b51e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MartialArts_UnarmedDamage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="35af45a5-74a5-474d-b8db-506e4d92bcdf" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Target_IronFist, Target_UnarmedAttack);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff0fcc18-3f43-4e52-80c8-53797f9acca2" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmedABP" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2f0fda68g15ecgca42g911bg739147286bde" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd4d48c14g49b6gbe92g05a9g2f95741797f1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_StunningStrike" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd8bf9c9-9ce1-4a43-9b05-5944418f3241" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmedABP_Rank2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a61572fgd980gc736g26b2gfc72cd8b56ce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc6cb7ee3gd0d4gb5f7g2ecag98989a7c3b2f" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0126f12d-1c4e-4de0-9778-5605f9869dc0" />
+        <field name="Name" type="NameTableFieldDefinition" value="OneInchPunch" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb428044fg62f9g4c76g48fbgc36154e618dc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he9a33e73g8cb0g6fd9g125fg1c0c6e025fbb" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'ClingingShadowStanceStatus','CobraStanceStatus','CraneStanceStatus','DragonStanceStatus','IronbloodStanceStatus','MountainStanceStatus','TangledForestStanceStatus','TigerStanceStatus','WildWindsStanceStatus','WolfStanceStatus'},context.Source)):UnlockSpell(Target_OneInchPunch);IF(HasStatus('ClingingShadowStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_ClingingShadow);IF(HasStatus('CobraStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Cobra);IF(HasStatus('CraneStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Crane);IF(HasStatus('DragonStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Dragon);IF(HasStatus('IronbloodStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Ironblood);IF(HasStatus('MountainStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Mountain);IF(HasStatus('TangledForestStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_TangledForest);IF(HasStatus('TigerStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Tiger);IF(HasStatus('WildWindsStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_WildWinds);IF(HasStatus('WolfStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Wolf);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ac09c89-9267-49dc-9195-509b15626bab" />
+        <field name="Name" type="NameTableFieldDefinition" value="AnimalInstinctApe" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a310a98g378dg124cg337fgcea1d1a28473" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfa5695d6ga97bg6305g2990g261f079ec219" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AnimalBludgeoning)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage" />
+        <field name="Owner" type="CommentTableFieldDefinition" value="Piercings: Eagle" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="HasStatus('SG_Rage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="403713aa-9e37-4985-b54c-b5f1535df75a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CraneStance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b62513bgec55g37bag9395gc2896bdcba63" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h960e69e2g8ce9gcce2gefb1g4d42bc4106ca" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindFamiliar_Raven" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CraneStance)" />
+        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcb476cb-5ab8-42a1-b394-964c39803d3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonStance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14990c75g3e32gfac2ge246gb8df7dfe99f0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98fdb8aagdf97ge44fg9032gd26ab44e388f" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FavoredEnemy_RangerKnight" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DragonStance)" />
+        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d03b571-ca58-4e88-bb0c-c2e0b6ac0d50" />
+        <field name="Name" type="NameTableFieldDefinition" value="MountainStance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9edbb434g60e1g5b84g40d6g62f176d333b6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf210d215gc5dcg7465gb143g02393814c26a" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Land_Mountain" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MountainStance)" />
+        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="35e79166-d5d8-439b-a851-852ece873953" />
+        <field name="Name" type="NameTableFieldDefinition" value="TigerStance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf133bcbfg1df7g5499g7a23g8312271501d4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5171b9c7gef0cg570fgdfdcgfdb5668e4134" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage_TigerTotem" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_TigerStance)" />
+        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1992b65-5ffa-46a3-83bf-20854263bc83" />
+        <field name="Name" type="NameTableFieldDefinition" value="WolfStance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf4287f73ge9b7g163fg0b6fgb2df9108fe85" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d4315e3g9a3eg91eag3c7fg4856ab2d3a3e" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage_WolfTotem" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WolfStance)" />
+        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0bc56f6d-c097-41a5-a286-8eb9076c7011" />
+        <field name="Name" type="NameTableFieldDefinition" value="CobraStance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb22d10egcde2ge541ga33dgb067403e5944" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d524fbegac82g75eag9191gec61a7e6365b" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_FangsOfTheFireSnake" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CobraStance)" />
+        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74bf4c69-8916-4b78-8f61-0c59aa239661" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlessedArmament" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd7cc93adgd49agc55bg42cbga10e9a1b987f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hecb461ceg2102g8c29gf416g177c8adc2db9" version="5" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_SacredWeapon" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BlessedArmament);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d58e92d1-c2ec-42aa-bb48-82e078f46a6b" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlessedShield" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9ea16f35g7f25gb1f9gd6b2g26eab5c77421" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6e3439dg7ce8g8b2dg9b0eg552d6bf33e4a" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ShieldMaster_Block" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c68e239-2e18-4f8e-bb3a-3c46beb1596f" />
+        <field name="Name" type="NameTableFieldDefinition" value="GravityWeaponActive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb64688c2g6407g738bgf8ceg13163501e5ca" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(((IsWeaponAttack() and HasAnyStatus({}, {}, {'STRIKING','STRIKING_GREATER'}, GetAttackWeapon())) or (SpellTypeIs(SpellType.Throw) and HasAnyStatus({}, {}, {'STRIKING','STRIKING_GREATER'}, context.HitDescription.ThrownObject))) and IsHit()):DamageBonus(2);IF(((IsWeaponAttack() and HasStatus('STRIKING',GetAttackWeapon())) or (IsRangedUnarmedAttack() and HasStatus('STRIKING',context.HitDescription.ThrownObject))) and IsHit()):DamageBonus(4);IF(((IsWeaponAttack() and HasStatus('STRIKING_GREATER',GetAttackWeapon())) or (IsRangedUnarmedAttack() and HasStatus('STRIKING_GREATER',context.HitDescription.ThrownObject))) and IsHit()):DamageBonus(6);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() or SpellTypeIs(SpellType.Throw);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,GRAVITY_WEAPON_ACTIVE)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89e4dd3b-d153-4b62-a375-a872093ff2e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="AdvantageousAssault" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc113967bgaef9g8841g3dd6ge19eff768f9a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h45d03613g1eb8g670fg4c48g754840c0f46c" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Smash" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AdvantageousAssault)" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="c947ac0d-1379-41f4-9f2d-27dc0ddace34" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f9f5190f-d758-4ccb-8591-a08911d75c11" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TheThorns_ExplosiveThrowing_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="61bd56f0-b126-4e87-84f9-276ae8086f1e" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h74fe4b14gc3b3g8caag8a53g1a0d2703633e" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

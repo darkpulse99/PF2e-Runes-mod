@@ -1,0 +1,5 @@
+new entry "DOWNED"
+type "StatusData"
+data "StatusType" "DOWNED"
+using "DOWNED"
+

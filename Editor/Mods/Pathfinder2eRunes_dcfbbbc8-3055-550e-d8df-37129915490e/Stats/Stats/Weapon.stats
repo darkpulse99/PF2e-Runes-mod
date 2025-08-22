@@ -1,0 +1,2223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46b12b2b-352b-4d7a-94c3-1f54b607742f" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Javelin" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7a1582de-945e-4972-93c6-924d5006fbaa" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Range;Thrown;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Javelins;SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf06c54d-36b6-4feb-b3d6-109bb5db7b16" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Battleaxe_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a032341-99e7-4003-b138-0d47c0096d06" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c17ee133-cbb5-418f-88be-5ef27991cf50" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c1d4519-90e9-49aa-9232-64493029e096" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Club_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="825386eb-4060-4bda-b074-e7a518e3ec8e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b30dca22-22bc-496e-b3b6-dd5744b73869" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b1009eb-9838-4811-921d-f9ed48ee502e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Dagger_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1eab180b-5bf9-48ea-aece-7ba20d1deb78" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f41c646b-a523-4c14-9307-e788d5bc282d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Flail_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="247c99f7-30b2-4e49-b421-ac3e77e7880e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9076abf1-1029-4be9-a7cf-428d2b6fdea5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26a3142a-b3a4-4851-9229-2cc52ccda948" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Glaive_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="06bb3875-3807-48ad-a95e-4b897379f9e5" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="15d2830c-ac76-4b5b-969d-05197875b1c2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c94db538-f713-4822-8e57-5c80bb577219" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Greataxe_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="12828fec-de45-4b49-a32c-f707ee184952" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="afbfaee7-e2cd-48e7-8c46-d2377c7320e3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff9e4f64-281a-4242-97dc-d82d55e4ced3" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Greatclub_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="06b6288f-a943-4b3d-b408-c9585083da2c" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d64e1a13-18a5-4cdc-ac02-977523435f8f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="84ee3bad-e4d4-451e-9a30-bdf8ba5c6762" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Greatsword_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="af8cc5ee-ef4e-48ca-83e3-f74972f9f5f5" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1a2a58b7-4bd5-44d5-b1fe-8cd7e5b53def" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d89a25b4-6300-429e-a900-6c487576e8bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Greatsword_Gith" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="917994ff-7179-4cf1-8719-4cc7edd4f07f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Twohanded;Heavy;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cef46b30-7416-4c3e-a4bf-2bcaa575c4f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Halberd_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78094ea1-a35e-429b-bb49-af003528595d" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d1019d9d-e5ae-4601-8a63-1b33421926e1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f9a8e34-e324-47ed-9797-2b7cc64effc9" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Handaxe_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8d752f70-9e76-497c-a5d6-f0c68e01f269" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7a05135d-b285-4186-8a32-a870f1684b60" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1834a19f-2897-4932-8c02-3350e38f05c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_HandCrossbow_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="672207ec-6ded-4a5a-9057-2d010118c267" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d2f396c2-9b1b-4eea-bf21-2f25934f092d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26df7fa9-e2c3-4c3e-87e3-10aa5609f65c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_HeavyCrossbow_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e762844-5e9e-4653-8006-107b77f5d0f3" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6af59cba-cc38-4511-9c3b-75caac4b96b5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="134e7f05-b208-448d-9ff6-abe8b448364f" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_HeavyCrossbow_Gith" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="56f74b95-665c-4243-8141-9a56943e3b9e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Heavy;Twohanded;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockAbilityModifierDamageBonus();" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2baa0f2-23ca-4679-ad72-5ff1e0e7f49c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Javelin_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="46b12b2b-352b-4d7a-94c3-1f54b607742f" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b908f109-b379-4a49-8f41-5b7f154d9b76" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6e3dc19-291c-4c1f-a8ae-41b199cc4961" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_LightCrossbow_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58324914-94a4-49e3-a00b-4c914d5f52d8" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="509dd5c3-7c72-4335-9b23-19a14a884f2e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6ffbda8-5ef1-47ce-bc73-76c8ad2de61e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_LightHammer_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce73b8f5-314e-43e0-bf05-12e411ebe12f" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d0419aaf-9e20-4029-b8e9-9e1a62661b13" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2c7579e-6d09-4d51-8454-e2834e6bb524" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Longbow_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8bb7ba98-1d0f-44ed-acde-9ff961b8d9de" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="049173ec-636a-487e-a9ed-bfafeadf6bb7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44ec3b2d-48b2-46d5-b9fc-281647b71b27" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Longsword_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c8a58aa6-155c-4bc3-b90e-02ba8aaecd78" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3fc2ba50-3070-4caa-abe8-3bf885969bde" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af621648-1fc6-44f2-a25a-93049069a327" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Longsword_Gith" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="804969e7-0882-43db-bd48-53a7fa297a9e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39db5b94-84e7-475a-9eb8-ef9f77bb4b84" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Mace_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="290e7dde-377d-4800-a940-13793c89f656" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5a948b12-ca43-4256-9821-0d151036dbd1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8250e3dd-fc64-4a75-a322-eb69dce6ad9a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Maul_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="23a0a8a2-5389-4bab-a4b0-d7855276f4e2" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7e8ef269-0e7b-4352-8828-89c5fced943c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9cbb2e5a-e6e0-4e8a-b741-d43162cf38a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Morningstar_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7863804b-3979-4f18-917d-a8e10c273fd8" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="deea755b-5335-49d9-bd0e-dbaab9eaf94c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="52adcc59-4c51-4969-a617-f045ed20236d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Pike_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="49715a99-3567-43a7-833d-a9b88f6d43c0" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="40fa8049-b6c1-4463-b212-52ad13b5d687" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57f07bfa-f77f-45a0-9b74-1665756e796e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Quarterstaff_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68c84962-5d09-4c36-b1a6-baf61bf97e01" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2fa18ee4-92df-486f-97d2-dd0a720b6fad" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="085095a2-4e5b-4744-b7c1-84b4b7b3e007" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Rapier_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="32e4f129-ea9c-45e3-a511-b67ebab65d21" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5a6cea10-b3f6-4370-8eed-0b69b4ba531a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d766b92-9b73-4d53-813b-92f353c0115c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04d79ec4-4fd9-4105-b43c-7391ea6fbfa9" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7cc7a0e1-d0b8-4569-afb2-d538e8941894" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f107fed8-f9ff-4d71-afec-a0a3c020bad4" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Shortbow_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="798bcedd-7c77-475f-bc54-99b23d53b5f1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a46173b7-afd6-48e0-9c76-817acd027574" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24ce7e4b-702f-4602-92e6-159276421343" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Shortsword_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="261b946f-154b-4f75-8985-cab6531034a2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88977ce5-c0e4-47aa-93e0-1ff974e9224b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Shortsword_Gith" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="080e7ab7-edb7-420f-9b65-ee7b2fcb006f" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Light;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IF( not HasPassive('Thief_Finesse') ):BlockAbilityModifierDamageBonus();IF( not HasPassive('Thief_Finesse') ):WeaponDamage(StrengthModifier,Piercing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0478c455-05b5-45ce-b8dd-8a9148812460" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Sickle_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7b854117-660e-4f29-8677-2032221bb41e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="50d677ed-3a0e-40e9-8291-ee6823af5672" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89e879a1-54b4-4e51-a5d3-f9226a8280da" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Spear_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="158e6f29-89e9-4279-8f8f-85078f047225" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dc5d22f7-eb87-44ae-9f4c-3351bc6b054a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Trident_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab58fd38-c004-40b7-9d2f-53158648ed68" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2fab5801-76b1-4669-95d9-7df76bed12dd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3bcade0a-79fd-4fe0-8a3c-fac39caa40aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Warhammer_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4aa6cc81-27d3-473a-a7ee-f486f1d11edd" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3e1b3db9-036e-4931-ab92-c3730a1c3d5f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d5f322d-2ec8-4fbd-b98e-d51c7f6e9592" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_WarPick_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c0040c9a-de25-4182-a8e0-f5f4801d0124" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="75586d3e-21b2-4d94-ac99-99a6b0e8c3dd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28206970-184b-4afe-a4a7-63e63b659450" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Battleaxe_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a032341-99e7-4003-b138-0d47c0096d06" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7faff867-9cb3-432b-aa27-8de281b7428e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69fe4526-9f08-4e8a-9d9c-9ee259e3aeff" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Dagger_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Light;Thrown;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c68026c8-8af9-4a05-b77a-246a01bafe61" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0f5b384-58c5-4c45-91c1-ea44d54bade6" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Flail_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="247c99f7-30b2-4e49-b421-ac3e77e7880e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="23ab9011-ef66-463e-a8ee-012321be6d1c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f6b0b96-bddc-472e-86df-bee59ad11611" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Glaive_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="06bb3875-3807-48ad-a95e-4b897379f9e5" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Heavy;Reach;Twohanded;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="bc1c2a84-27f5-46e4-b4b4-0f5ca534469c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4fedae22-0d79-467e-9d89-71d7309a6d3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Greataxe_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="12828fec-de45-4b49-a32c-f707ee184952" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Heavy;Twohanded;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ce8a894c-3dc6-48dc-bb8f-af5390890d43" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a03a384b-1682-4360-ae1b-697af0673cb9" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Greatclub_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="06b6288f-a943-4b3d-b408-c9585083da2c" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Twohanded;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="adf0ef57-7811-40ed-9d29-05c6336f9e1f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74d2adff-f1bf-440b-ba83-7d7adc2c486e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Greatsword_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="af8cc5ee-ef4e-48ca-83e3-f74972f9f5f5" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Twohanded;Heavy;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2741505a-9d0b-4c9e-adcd-2e6339491e95" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="156bea13-c815-49e6-8a63-65f9d4c27a1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Halberd_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78094ea1-a35e-429b-bb49-af003528595d" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Heavy;Reach;Twohanded;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0e3b29e8-572f-459d-b382-234ec53b1c08" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21f8449c-f644-4edd-8e0a-924422d53ceb" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_HandCrossbow_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="672207ec-6ded-4a5a-9057-2d010118c267" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Light;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ab150a98-0a8e-4ee2-9dca-580d77f99be3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b84f94e-47a4-4f17-911c-e8aa0e7ec16b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_HeavyCrossbow_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e762844-5e9e-4653-8006-107b77f5d0f3" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Heavy;Twohanded;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="59c190d2-4b91-44f5-a720-f75d338dd341" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e21465d-93d4-43a1-984d-e8d45eabb406" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Javelin_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="46b12b2b-352b-4d7a-94c3-1f54b607742f" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d8461adb-44f5-49b3-87ff-ea652f6d4081" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="efe17168-b75d-41b7-9234-4e56670e86b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_LightCrossbow_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58324914-94a4-49e3-a00b-4c914d5f52d8" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Twohanded;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fa9b6992-dbfc-4265-996b-73d9836cf7fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4697af3b-dcba-404f-8439-3ca190c6e8c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_LightHammer_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce73b8f5-314e-43e0-bf05-12e411ebe12f" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Light;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="647f2f89-f10f-4def-ba9e-9078e49b6157" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5dc5d761-f39a-40b9-b8e0-666b52404bcd" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Longbow_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8bb7ba98-1d0f-44ed-acde-9ff961b8d9de" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Heavy;Twohanded;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="118967f7-14de-41fa-bec8-3ba383252e9a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8d6cc12-ff2a-4333-9d1a-0c187c2c2464" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Longsword_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c8a58aa6-155c-4bc3-b90e-02ba8aaecd78" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e3b2adb6-7493-466e-9c65-4281fb74e83f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68e8bee1-99c3-4369-b1d7-9b207e416a7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Mace_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="290e7dde-377d-4800-a940-13793c89f656" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f203a318-ea9a-4117-8d27-299dabafd1d3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5847f739-de2e-4d70-9bf2-ec47dc3fd4f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Maul_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="23a0a8a2-5389-4bab-a4b0-d7855276f4e2" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Heavy;Twohanded;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="904286be-03fc-4755-adf0-9fd5f44942f4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a4c634af-8c35-403c-bc0a-83c51faff27e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Morningstar_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7863804b-3979-4f18-917d-a8e10c273fd8" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9e2c45b2-0411-42cc-bac6-6222c1334cb0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3660e2ce-723d-4942-b55c-9fab0d5b377f" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Pike_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="49715a99-3567-43a7-833d-a9b88f6d43c0" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Reach;Melee;Twohanded;Heavy;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="50ffcd8e-eaa2-479c-b8ed-117ef5436b49" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc921602-1a67-4522-bb53-0fa2b484e886" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Quarterstaff_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68c84962-5d09-4c36-b1a6-baf61bf97e01" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e1e112b2-5465-4e37-acdc-372666ec1521" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93a24591-c9f6-41b6-b61e-e7b4ab792bfa" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Rapier_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="32e4f129-ea9c-45e3-a511-b67ebab65d21" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5c572e8e-8693-48cf-b494-2df0341f7ced" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ced0306b-1c2b-430a-adc8-d89ef21d6240" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04d79ec4-4fd9-4105-b43c-7391ea6fbfa9" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Light;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5193af64-48c1-406f-90bf-87f7f01b4684" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c342c417-f754-4877-aeaa-e219a40a1e89" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Shortbow_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="798bcedd-7c77-475f-bc54-99b23d53b5f1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Twohanded;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d9a98dce-1027-4324-939c-3c9cfe776731" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d6cda88-e346-4bec-87c7-9345235f8307" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Shortsword_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Light;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0839fb15-24ab-4c3a-b168-413a47ed710a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c539c303-6b36-4371-994a-e6a14a594d59" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Spear_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="74d9758a-84e9-4244-9ae8-14acee76acb3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e7ed24f-b0b1-442a-912d-2b333932c1cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Trident_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab58fd38-c004-40b7-9d2f-53158648ed68" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6cf827d6-5bae-480a-a1b4-d7fdb0e68801" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6332072-f3a0-435c-8b79-92d04d779462" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Warhammer_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4aa6cc81-27d3-473a-a7ee-f486f1d11edd" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e6b027a7-40bb-445e-b199-38b08d2b4832" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9af1c5da-dd31-40e9-8e43-b0be1ff81081" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_WarPick_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c0040c9a-de25-4182-a8e0-f5f4801d0124" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a5012da9-9cfa-467b-901a-61e33db55516" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e8a668a9-8d7c-445d-a7a5-07bc467fb385" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Battleaxe_1_Uncommon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cf06c54d-36b6-4feb-b3d6-109bb5db7b16" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6eda3893-3429-4d70-9d40-836474cd8a4e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Spellbreaker_Battleaxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="90298711-0fe0-41a8-8a88-1b68d3439c9a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_SilencingBlade);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c52edf3-d6f2-40a0-bd38-b45e910d66d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Fire_HeatOnWeaponDamage_Battleaxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da7259ff-f88f-4cd0-a999-1136330285d4" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3103cf19-b1dd-4b0f-a549-e5d67d58ac0c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Vicious_Battleaxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="df30ed50-e9fb-4db7-b3dc-db4908c05a89" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="818cfc0f-78fe-44ed-82d7-2b2e45e970d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Druid_IronWood_Club" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="12fafb19-5d6a-417e-89b8-0c8f7f93b697" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c32d4ac0-3090-4046-87a4-ee68b304b930" />
+        <field name="Name" type="NameTableFieldDefinition" value="TorchOfRevocation" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="efd45c71-7a9c-482f-b06a-285bdda1a761" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="HiddenDuringCinematic();" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8dc14596-37d3-4b65-99a4-19630902deb1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Surgeon_Leech" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8561d15b-3dad-4b54-afab-d55a9aa3fc27" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Knife);IF(Tagged('ACT2_TWN_HOSPITAL_NURSE',context.Source)):UnlockSpell(Target_SurgeryEnabler_Leech_Nurse);" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="IF(Tagged('PLAYABLE')):UnlockSpell(Target_MAG_WeaponAction_Leech);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab13c983-f209-43d8-a682-36556e234607" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_CapturedGoblin_MurderDagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dd3d27ba-93ac-4f14-848a-f6235c3953d7" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d87f2194-5eb4-44bd-bf1c-5f000d5eb025" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TheHunters_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cbbdf8f2-3649-4913-8395-89cfb5a7eda8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="071e046a-0b67-4b2c-80a4-1acb531ed39b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Murderous_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7ddd8da4-d4d3-4ea9-937c-04f9c2361de8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IF(HasHPPercentageEqualOrLessThan(50, context.Target)):WeaponDamage(1d4, Piercing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fafc9609-8817-4891-ab66-3ab9c275c9fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_PainPriest_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f93694fc-9826-43f3-a2b2-879fc8732c8b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="de8ea904-78a4-46bc-8d06-889946368683" />
+        <field name="Name" type="NameTableFieldDefinition" value="TWN_SharDagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0d670277-0047-4176-be5f-c7439d3845be" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c09feabf-b126-4dcf-bb92-ce14c781a184" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Surgeon_Syringe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="945fb833-5d0a-48e8-83ce-04737c8a2a09" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5d43596-24c0-48e1-84a7-baae5f8b16cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_Pens_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3d689818-95f5-49d1-828a-a820e525a827" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05839661-f0ef-4589-8051-a725186b8a03" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Frost_Offhand_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf801eed-88ec-483a-b990-ddf58dfc2f36" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09b82843-b33a-4185-a8af-91da65fe794f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Vicious_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="301d3568-0861-4226-ae7e-cc9d2a0b41bf" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d17c1334-ec29-45fc-9cd7-eb90d9dea6f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Zhentarim_SleeperDagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b188b766-7540-4a04-88fc-dcf55078176f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a5d6b144-9e20-4130-95b5-b5ef07938aa5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WYRM_Farlin_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b2b912a4-0141-42e2-aca3-ba17b432aadf" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="231a8a62-b084-4b2f-ada5-15550da9cc46" />
+        <field name="Name" type="NameTableFieldDefinition" value="FOR_IncompleteMasterwork_SussurDagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ec9cbe73-2e32-4765-bb11-19e16d23d898" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="321aac37-0879-410d-b36f-61e76df24666" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_Cazador_RitualDagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5b9abceb-a4d2-4a8c-8d25-c67271887f91" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e84f500-6699-48a2-a2eb-2df5443491e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Bhaalist_Paralyzing_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4cb40f2d-0706-4f6e-a8af-efb179909339" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a89cf38b-8634-4c00-bf7a-87e4cd4da837" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WYR_Orin_Bhaalist_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3b7c0324-936e-4502-8940-39d3077df86c" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9365cb43-e339-41cf-be74-fcccae7604d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_SkullFlail_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63013ef7-3b2d-47b1-a190-dee2d8493df7" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6df82f08-e52e-4d73-9fde-c19354a8879e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Corrosive_Flail" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="230c9fd7-ba77-457d-9680-4a2c58c5bc20" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db3f2b90-6d1c-40fc-91dd-538961276fa1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_OfEasthaven_Defender_Flail" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eca9bff4-1655-4f97-993b-4347a778bf04" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5227e4c6-586f-4b69-bc6b-683fd0193446" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_OfAges_Flail" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="62c3abde-87a6-4d39-993d-b22e5ca42da9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="730be6e8-4f35-4e85-9942-9ec9b5bb7423" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_DragonsBreath_Glaive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f4f1b96-3f6c-4191-b350-51c17f7985a4" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41abcec6-8bac-4e09-aa6f-8dd79e38065a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MonsterSlayer_Glaive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b774339-83df-4a25-8d4a-b836ad5ca317" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="157e23eb-ef95-442a-9d7e-c90b095dac95" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Moonlight_Glaive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ba6dbb77-0b84-414e-ba87-8562a73eb0a6" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7864272c-b007-4c1e-bbe5-0dd5e5bf64b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_HalsinBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a4fed4f4-5027-4345-b5b9-a8fe64ec7de1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="baf6f376-846f-40a2-a397-fe17ab6594f4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Finesse_Glaive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f31767ad-bc7c-40d5-a425-90a57edf8f54" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8b86f9e-0295-4d40-a765-37a94a952405" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WYRM_UndeadBane_GreatAxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="939950ff-0417-4de0-b500-800e507bc68b" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2636fa7e-1bcb-4daa-af8b-539d860fbed2" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_SuperheavyWeapon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b518349b-0e3e-4234-aa81-ec0387d18fcc" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d3c2196-dc49-4e1b-b732-13bb11279d9e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LowHP_IncreaseDamage_Greataxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8dcce963-8b4f-4eac-aa70-da83ed6f3d32" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9552f222-da18-4fa3-a707-886b3e3369ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_PHB_Defender_Greataxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f6fb0b87-865f-4896-b367-68c06461d582" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1dd3dfaf-5bcd-4a5b-97a2-cee1151e5824" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WATCHER_Human_Greataxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a1f236a7-1ea2-4184-bf3c-e10f5289bbee" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea165b45-fa6d-4cfe-bb76-975fd352a632" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_SpiritualStand_Greataxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6d341f9f-d14d-4520-a86d-b478ea3b3634" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="abe4d0ac-8d1a-4d28-8c1b-89fb30493e97" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Poison_Greatclub" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8054c250-f15c-4079-8697-403a3f788b96" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d521a061-ab68-4f5c-8435-40fd4880be03" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TWN_Brewery_Greatclub" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2ece42ef-f6ca-4859-9ec3-5039b6324f48" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0405c6db-d856-4db2-9959-b0990a7897d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="TWN_RatCatcher" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="710c81b1-b9d5-4a11-93d6-ac15eed75c1b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="12315a01-e826-4694-8609-9ef86fb083a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Fire_AlwaysDippedInFire_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01b7d733-5da5-4d28-845c-15de01ec2b11" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b28e970d-72cc-42ce-be52-dc15219d75b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LowHP_IncreaseDamagePsychic_GithGreatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ca63f812-8ce1-494f-bbf8-da5c4a4658de" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="493d95b3-4cc9-4080-ba40-ca33e0a893b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TheWoundSeeker_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eb1114fa-b57f-4613-9c8a-c6e65c4e9666" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83f0c696-ba94-48df-b192-0c03b24b381d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PLA_WPN_SwordOfJustice" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f383af3d-162a-439b-9e42-53e182baaa1d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93127d42-a5da-48e1-9eb6-6eeaf1afb6ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Colossal_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5eda8a8d-0dc5-43fe-8a7a-4e7a561d082c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0606ad10-1b00-4bcb-ba87-c73a2a7475e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Githborn_Mindcrusher_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="114246ad-e683-45fe-8447-e0bf577f5543" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3225010-5692-4f25-9928-5251488bbca2" />
+        <field name="Name" type="NameTableFieldDefinition" value="FOR_IncompleteMasterwork_SussurGreatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cd46b2ba-8f3c-4c33-9e8a-bcdb068275b2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad127a82-1bc9-4d8f-8bd3-b204177771d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_Sarevok_OfChaos_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf87dee2-d169-48ec-b858-61223b7a12be" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5a2ac4f-08cf-46bb-8a44-a3a37835e7c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Giantslayer_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="567d2d15-80c0-4f5f-b96e-cae9b51736a5" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bafef8ed-12ae-478b-8648-a71ee0dd8e2a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_GreaterSilver_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bcc6b567-29f1-40c2-8bea-06353bfb0721" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73aafe59-c04f-4c8b-86b8-2f7335b2e212" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Tower_AutomatonHalberd" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="836137ba-486e-4925-bed5-3540cfa27ff8" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);WeaponDamage(1d6, Lightning);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="781d6457-9209-4a3b-8c47-1eeb6dd91051" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Merregon_Halberd" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81c6089a-ec57-4566-a048-5439c4d470f4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ffd9f930-5d1a-415c-97d9-a8f7b7ea9897" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_ZOC_ForceConduit_Halberd" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7f1065a1-152d-4f3f-abd7-01c2ff98d9d1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0cfa6c3-4563-4204-a29b-40a8a174b343" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_Harmonium_Halberd" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="239f5781-3236-4a46-96fd-4e1f54b781cf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2172869c-0ae3-48a5-927d-effd41702e86" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Infernal_Hellbeard_Halberd" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cfac1ec9-4870-44f9-9aa9-b873f339c5e4" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e4148b98-5da5-4d23-82e5-d800f612b391" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_PoR_OfVigilance_Halberd" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f4512c2e-71e9-4b23-8d58-5ea4a25c270e" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0eb82385-0f23-443c-84a5-0b4bda0217bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Fire_IncreasePiercingDamageToBurning_HandCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5eb1120a-492b-4f6f-9746-66279c112914" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c3814f8-c691-431c-bea1-578e37d68a35" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MagicMissile_HandCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6aaeb196-916e-4ef2-aadb-1212e097c3e1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7c11dbe-14b6-495b-b7cf-6fb6b4335a60" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Orthon_Hellfire_HandCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f322c92d-f438-4aad-bf82-0de2ba97e1a7" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5d773f0-7825-48e7-829f-c6782ca6dfda" />
+        <field name="Name" type="NameTableFieldDefinition" value="WYR_Circus_HandaxeReturning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fca628d1-d6bd-4e96-b3ea-4f8109a39e99" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="623e4ddd-e4dd-478a-84d2-6e5fef3bcdfd" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Fire_IncreaseSlashingDamageToBurning_Handaxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b11bb4d4-ab8f-43bc-b6f8-b1894bc25758" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1e4c85a0-d8d0-4df4-a31b-191588722ce1" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_PainPriest_Handaxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="71ca4e3c-5e84-4880-a2d6-2301a07d5ce0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d4a80166-9820-47e8-a81b-71d4a0c192ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Githborn_TelekineticBolt_HeavyCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1752a722-4d10-4392-b31a-786539ef893c" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="537c9791-323c-4487-be52-a9b2ce33616e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Gandrel_UndeadSlayer_HeavyCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="727bf024-9890-46aa-9d5a-1bc44b1139d8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad384771-84b5-48a7-9a5f-1d89afd4022c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MeleeDebuff_AttackDebuff2_OnDamage_HeavyCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cf6d5390-ba7e-4c42-80d7-8479e991a77e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eaab83ed-8dd6-49ae-91fa-f93b76bf7ae1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_Harold_HeavyCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce4bf376-06aa-47a2-ae40-d2f30d47b64d" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2766e08e-bb79-41e3-add7-d78cfc8557e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_UndeadSlayer_Crossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ee1e894-aa3a-4ae0-9817-5404a3f075e5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a60e561-4148-442e-85ef-555ca2373589" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Gortash_HeavyCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4c07634c-1037-4689-87e8-922c8967632f" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99063640-473a-4aed-8a08-0ce0b8333dfc" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WATCHER_Human_Crossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1b8391cc-fa18-487a-863a-a6f57387b312" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6963d0f1-18d7-4ca4-a0f1-165238321ac7" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_SharranCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5a7bd0f-8925-4954-b29f-b84dd9dafb22" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockAbilityModifierDamageBonus();" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24b0546f-dab7-43c2-a2d3-6eddffd6779f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Radiant_Radiating_Hammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01f379ed-d8f8-45f9-9316-4186f6b9986a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99dc4714-e2d9-4779-8eb6-186c622d25cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_DuergarBlacksmithHammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d0333552-1d7e-44fb-a636-fd18a355fac8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d969c90-11af-4cd0-9add-c9d94eb62401" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOO_WulbrenHammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5ad219b-e851-4b09-9787-05cbde47ee6b" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="133d908b-3f29-4847-8bac-598c7c7261ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WYR_Hellrider_Longbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53689714-1875-403e-bef2-d1e6001332d6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48f65966-56f1-4c6e-9559-bc13d85a2391" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_Bow_SpellslotRecharge" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="45cb599e-097e-4500-ab1d-89d6721edc39" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04ff5e68-5f40-4e75-9a84-7058597af7f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_ChargedLightning_Longbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8fb69f3e-867a-4c34-b48a-1076bc181d07" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1287614-46e7-4712-a4b7-abbef6335d1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_StrongString_Longbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6ff4e410-a425-4006-9b21-fe49a110871b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2b284a9-275e-4551-9df0-786bb3346c71" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_DeadShot_Longbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="26915978-e261-4551-af40-ba410d8700c0" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e913868-001c-4caa-a9d2-1a6ad1bba343" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TheVictory_Longbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8e33b78a-43a7-4431-a487-063176067709" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b2d3a98-e0b3-4fcc-a260-a1193d8cc6e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Surgeon_Bonesaw" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8aa14d6c-c507-4d61-873f-c6df08db3d2b" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83840953-8906-4b82-829e-4d8cdb04757c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Longsword_1_Uncommon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="44ec3b2d-48b2-46d5-b9fc-281647b71b27" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b6a5c9d2-4523-4236-9179-1fe6e5f75028" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Katana" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="903b673f-d058-4877-b12f-131c09e13cbf" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef1d0066-98bb-4dc2-8826-389af57fa05d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MeleeDebuff_AttackDebuff12versatile_OnDamage_Longsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b6435027-cee3-4842-93fe-f7c8b7722032" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1b2ca2e-e1ca-4bcc-bbf1-2adf753ec5c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OB_Paladin_DeathKnight_Longsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53b417f1-6b02-45be-a3a4-78626c7601b8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f51daded-77bc-48f0-85be-aa5c857449b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Illithid_MindOverload_Weapon_Longsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37b695a7-488f-418f-ace6-573a9028034d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ba87fc5-27f3-49c0-a946-d81db3653b20" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Drowelf_SpiderSnare_Longsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="34c7fa4f-3a76-4f16-8ac3-c5b5b6d7c941" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf63fcc3-6e16-4139-9104-de3ca49478f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WYRM_Commander_Longsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b6f7fc4f-19b6-4617-a801-a5296514c132" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d42f171-cd7b-45ac-8fcb-21d2a5682793" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Finesse_Longsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cecc564e-c184-42ec-8097-d1a2ad93ef12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb71f861-86c1-4fe0-8740-5850af83c248" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_SwordInStone" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2854934c-fd7a-4243-8a29-c176b0609c68" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3e436404-87d4-4e2a-b081-2216286e36e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOW_Elfsong_EmperorSword_LongSword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b69d8c44-564f-4260-bd34-cc7538ae1497" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d7868b2-c39d-4437-a2cc-2124a987af0a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Primeval_Silver_Longsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a4200daa-351d-44be-86ad-40fb27e9914b" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0e5670d-1e0b-4ccf-9303-d58cd196826e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Mace_1_Uncommon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39db5b94-84e7-475a-9eb8-ef9f77bb4b84" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d7c9b612-2647-4394-a25f-7604e7412a48" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Infernal_Mace" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de3e6755-2766-4ebc-889e-0f4d01a977da" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31e6ecf1-d7d9-40df-b0a2-22794e5134ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_PainPriest_Scourge" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d480af44-927c-4658-98f9-571df66e173b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74729aca-0bf2-489b-b867-d4a371b44277" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_DrowCommander_Mace" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2063a79c-7bbc-4177-9015-3db9fd13cc37" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2e21299-5bbd-4f90-9362-0d8964837fa2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MeleeDebuff_AttackDebuff1_OnDamage_Mace" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="004c4b26-cb2f-4d65-9caf-c0e586044961" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f54edca7-705a-411e-8317-9499cae0dc81" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Infernal_Mace_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="daf5d885-c8d3-4032-8861-d53ab8583529" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef5a83ed-7314-4bde-85a2-f8a027f0ccfa" />
+        <field name="Name" type="NameTableFieldDefinition" value="PLA_ConflictedFlind_Flail_Broken" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e27a298-3209-475b-a475-ad3991424f5c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="353e4de7-03db-44ed-96af-1b3a198c068a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Viconia_Mace" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0cddf881-6ee7-4f10-94b7-3a0dc4e2fac3" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4123e602-c94a-47b2-8d2e-ed874680858c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Cleric_Devotees_Mace" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="895d8a55-cb21-43b9-ae8c-474de64a6912" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7baf61f-8ca5-4179-948f-8c1ea4efe6e8" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRE_BloodOfLathander" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="17101884-1f18-43ab-8bba-cbc34e3de2aa" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8011622b-0453-4dcf-95b9-427f3c85eced" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_DoomHammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cd383344-dca1-427d-b1cc-3f84bd5ab282" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f13b6a44-2510-4959-ad3b-3fba9e51c428" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Mobility_ExplosionOnJump_Maul" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b30e1452-83a3-4d55-be6a-53a2cbb09e44" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d9d109e-4adb-4656-82ac-348804c16814" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_SWA_Roaring_Maul" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="29575d69-88d6-4bd5-86e4-2f4b3db13efc" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1995b618-26f0-435d-8f30-505f5563a711" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TheDestroyer_Maul" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ef3bd08-c34e-4d18-97ee-c0f6ffd6188a" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b3fc2f0a-d42c-4916-91b6-aed88cb455c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_OfTheFist_MorningStar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5b57c5ed-9cfc-4993-b28c-ab1afb7c6d2c" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d71cd3c0-2555-42f7-81f9-505edc7d24df" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TWN_Taxblade_Morningstar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a7e033e-2ca5-41a3-80ad-8783d8fc530d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="647a9586-196b-4b14-8efe-3b9ac1f6763e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_RadiantLight_Morningstar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="38eecbdf-165a-4c2c-aa79-43d181b7fd49" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8b413534-546c-4797-8872-f7e403f3f4be" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Pike_1_Uncommon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="52adcc59-4c51-4969-a617-f045ed20236d" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0c6c466-8b1d-43e8-ac61-1a1faa1ad392" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Throwable_Pike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f7f9dda5-a17a-49bc-a9b0-2425f9af69e2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55e0d6d9-736f-45bb-b7ae-0c8d1cab065b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Force_Pike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8bad20fc-7bc0-402b-86a3-0697cbcdf49b" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c4427714-979e-47c7-abee-55ef902c7df0" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Invisible_Pike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a0aaf648-b629-4f61-8588-9bb2a4f47d14" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1125d9e9-d48c-4c78-9d05-e41fd82c19ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_RepeatStaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9461d2f8-34d0-4f92-96ae-7a64ad6165ff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e2ba531-2ab1-4208-9ae3-e871960bfd0e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BasicEnchanted_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3da88509-4ff8-49d4-b42f-d385852edcfe" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e3a6133-e997-4e1e-b43b-7f1c920fa424" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_TunnelStaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7055f85c-2aff-4ffb-8055-bebeaeb6785f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="616c13b9-91cf-4f36-9084-041624168e2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_StaffOfRain" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9403e69-a598-4a79-9939-d6d5011a7727" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea102068-cf93-48af-a5f2-e62a4a9594af" />
+        <field name="Name" type="NameTableFieldDefinition" value="WYR_Circus_MumblingStaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1214a4f1-9399-4b3e-b44c-27873db3b6a6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5efa5355-e89f-4fa4-9f82-304d58ac6bae" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_Tower_StaffBlessMystra" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39592796-df91-4b33-b43a-46f5ee5c2bcb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a36de9d-2b14-46cd-9d4d-6c1134559774" />
+        <field name="Name" type="NameTableFieldDefinition" value="Quest_HAG_HagLair_Staff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7fcab705-2814-4634-ad32-f4ce07139027" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82cb2f9e-6aef-4fd8-b0a6-ec3f3eced718" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Combat_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c4317589-db67-4a4a-b202-605c6e758127" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c742400a-f337-44c5-81c0-03fa97568b38" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Thunder_ThunderClap_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7b07e03d-efeb-4b10-bf32-b86699220754" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92b5b98f-239d-43da-a405-e9de3c158dfd" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_PHB_PactKeeper_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ae0f1b31-bca9-4f10-a5a4-2738f36e31a3" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c84898f7-e9d4-466a-bd71-e394b6cf4c25" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_SocietyOfBrilliance_ResonanceStaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d661bd7-7e58-4327-921d-1ac7ae5678fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="abb7721b-d43e-42e2-a149-46dbbcafccb9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_Lorroakan_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6ce5c727-51ee-46b5-aa4b-76fae5de230a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63d5d20d-7b82-4c15-ab60-9e7df3b529b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Fire_FireDamage_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="56ad9498-2177-4f40-9016-3a7f2f585734" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22de36bc-79e0-4e2c-b2ff-76f5d36eee62" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Harpers_OfWeapons_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f6120315-2707-42d9-b727-647b0dbccc88" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60539db0-914f-4e0e-9fa5-e8938c446886" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_HigherNecromancy_Staff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f1db8611-0e48-4d61-83ec-1c7f032c8c04" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="184fb3d8-711b-4b4d-9879-03f0a2e969ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_FaithwardenStaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07113c5d-b4db-40c7-b841-32722fd1e255" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="efd0ec6d-e43e-45a7-9af5-aabb3956d0ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_Counterspell_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8a053817-3ea7-4b40-8b4e-d2ff2e599f81" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68cc06d5-bc40-487d-9e34-1f9b0b403923" />
+        <field name="Name" type="NameTableFieldDefinition" value="END_Emperor_Staff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b2c8b266-fdfd-4225-981c-4be3715a9d8a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f17fcfd-20f7-470b-bc97-994967ed2d2f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_ChargedLightning_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d35eb7c-11fe-4077-b765-fc7cf1b93825" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29964f2d-5f27-4f2f-be57-1fde8de71111" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_FlamingFist_StaffOfFire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5c3a32e-a7a8-456f-9d29-bdd4da01b837" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1f5da4f-ff01-43a1-a574-e5dd925b3dc2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Cold_IncreaseColdDamageOnCast_Staff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f4664ede-2d82-4d68-b7f7-5386badc6bcf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2de2ddd6-aa9e-4700-af7f-121d11afcfe5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_GreaterNecromancy_Staff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04a4fd32-e7aa-48c9-8603-170633684402" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c5fa253-24e0-4b88-bb0d-e9b0c0d09c62" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OfSpellPower_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e897cf33-7542-4b32-97a9-449e036b5a19" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c7344a5-6669-46e9-ac0d-1cbf5b70287c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_OfTheRam_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="31664e1f-cb43-4bef-a522-0eb6a6d515ad" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9b58a66-e630-4e17-b794-16b69f9411e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_CazadorVampiric_Quarterstaff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="417830f0-3b22-4b83-8610-f8561d90de5b" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2abdd222-9471-4e7b-b5b5-9b874bd4c994" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TheChromatic_Staff" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdd03f95-7427-4c68-ae94-6594e3b08b82" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e59520b1-f1ec-4981-8224-5df90f14ca1f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OfRupture_Rapier" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e5f952fb-ed18-4730-a684-b5264c921c84" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29ce714b-2fc3-4bc4-8207-1bc038c802a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Harpers_Harmonizing_Rapier" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="855c0d9c-1eac-4e66-b425-e08b65c9d5ed" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47a2bf26-4510-4d40-989a-b339549ec7b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ORI_Wyll_Infernal_Rapier" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="427940b9-362a-4ff6-92b3-822fb20b1beb" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="87879357-7fca-4a7f-9581-58b457a6f197" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_RadiantLight_Rapier" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ca3480ba-6191-4ce3-a091-50d4f4cd7705" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98ab1dbc-9ba3-4bf1-9592-a308fd4a1f6b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TheDueller_Rapier" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2eec277a-a322-4947-b53e-1d4e607bc367" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0174a843-a3fa-4079-bc29-bf6e4fdcd752" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_BurnOnDamage_Scimitar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1fff0722-9577-4759-b7d8-02171f607b26" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad792f6c-f75d-46b4-a923-a205f4380c8b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_HAV_Sylvan_Scimitar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3c55bfec-4b98-4b14-8a5f-3d4f9a10e54e" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a3040767-8a05-4134-b5b8-b99411b39e7b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MeleeDebuff_AttackDebuff1_OnDamage_Scimitar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ea165f5b-e071-4588-835c-0e9a1d0dee30" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebe403dd-2234-4603-ac15-e724e8220bd5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_PirateCommander_Scimitar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10daf603-5ff8-4536-b219-717da5c32861" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="341d9f70-6974-4885-bf12-fa069c84cd53" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_HAV_ThornBlade_Scimitar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7ef1aad8-16d4-4d34-aa48-d7052ce5a1a9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3a5c748-63e6-40dd-b0fd-fb5bfb132bd4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_PHB_OfSpeed_Scimitar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4446377c-2a0a-492d-a908-b55e8d6cf943" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19053bcc-a255-44a6-9abf-e41054894626" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Justiciar_Scimitar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e16674da-b9ab-44e2-96fc-3e72a5ccbd5b" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f3bd539-8ae1-44e2-8fd6-d6afa7ff7ce4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OfAwareness_Bow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="96502c2f-7f56-4c62-b5a6-7fd98c365b6c" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f8e62c9-915a-4af7-bac5-c82e71d15a1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Hunting_Shortbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="34320930-cf34-4a6e-a280-5a6685c2ed2f" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="DeadlyD10;MAG_LC_MonsterHunter_Passive;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="862d4d9b-417b-4add-8f4f-558dcf500fcc" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_OfTheBanshee_Bow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="23fca41d-3798-4c44-b39a-98e2d1bacf04" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ccd4e79-c8c8-4418-850b-16223ef85f4d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_Darkfire_Shortbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="db1937ea-6cd1-407a-bb18-add291a948ee" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1ab18f5-3ad0-4a79-b106-17bca201b0ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Shadow_Blinding_Bow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="806d4fd2-5a7f-4515-9971-6ef239d924cc" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b700140-276c-4f61-85aa-a008b2235ae1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Vicious_Shortbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef2197df-c297-4f91-907e-eccbcd5f09a3" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3e3c3145-0b84-42f1-be6b-ea71808ce89d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_BlightBringer_Shortbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ecd23108-fb92-4126-a8c3-e5819c6103b8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="303a894e-0c1d-4873-bae0-43e03947222c" />
+        <field name="Name" type="NameTableFieldDefinition" value="TWN_ShortswordOfStealth" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a3c8e12b-8ff8-4012-abf5-6a64aaab1349" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a924c4c-0724-431c-ac0a-92cc13ebc208" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Blindside_Shortsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8b004026-e65b-4510-b404-b8e2ebd8ae66" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8183507d-1ce2-45d1-a8d6-60cb2b175f8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_ShadowBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c46df38c-5449-46ff-bb91-94ef44c5e2ca" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1d4cae2-83b4-4756-b33b-949052c9308a" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_Duergar_ShortswordOfFirstBlood" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e8d4a358-53f7-4218-a595-9fa4900b4bd4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ccdff46-b001-4815-8cbe-d88933739ead" />
+        <field name="Name" type="NameTableFieldDefinition" value="FOR_Village_Blacksmith_FineSword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="24ce7e4b-702f-4602-92e6-159276421343" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="65b41886-823d-416b-b53e-c332a3aad530" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="60" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a44187c2-3c67-4e23-b88f-929a742bc7da" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Surgeon_Trepan" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42abfe8b-3279-4d18-bff9-8368cd04a51f" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62e7fc4b-7d0b-4153-88a5-d7d94f55cbe0" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Ambusher_Shortsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dbce21c2-d122-4c48-a542-9a95fa75c934" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9053b041-00d8-4570-835a-4f108fb416c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_Fleshrend_Shortsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f84bfc4d-1a97-4bb4-91a0-72d973374edc" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1fbd2760-1b80-4c5d-9305-132cab51b0e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Slicing_Shortsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fe45564c-bd6a-4a1c-8939-1653c73985f5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="423244bd-8fc0-4be6-af04-ea01c6f2d09e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Shadow_Shortsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="effacaaa-9b75-4dd7-b891-5da2d58fd6ef" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0bdea83-8fe9-4828-83f3-1fa445f33263" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Bonded_Baneful_Shortsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7e8284e-acef-4d35-8445-6169aaed5056" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5aeede76-6f56-45e6-8260-951ccfbfcf15" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Duergar_Sword_KingsKnife" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="87a80f5b-c22f-4329-9e66-7aef63b65b93" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5d2407b-49c3-4f20-b89c-b85d8762c9ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_PHB_OfLifestealing_Shortsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86861362-bb11-48ba-98fd-b8729bb17508" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48e4940e-a6a6-4f19-826f-5cc53557d1bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TheCrimson_Shortsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8b4f6680-8bce-40ea-a85e-115bd95c8dde" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IF(HasHPPercentageEqualOrLessThan(50, context.Target)):WeaponDamage(1d4, Piercing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b441f9ab-f515-4348-af32-4785d2b1d435" />
+        <field name="Name" type="NameTableFieldDefinition" value="FOR_IncompleteMasterwork_SussurSickle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c8bb373a-4904-4984-9352-0cf50fcb2db1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7304351e-a4e6-448f-9403-4ccfac2733d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_Umberlee_Cold_Sickle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c501ac32-4264-435e-a321-2e8c7a222643" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9319d9db-4668-4119-8124-4c944f05f8b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Kuotoa_Lightning_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="67d08e8d-d74c-41ba-bb37-a0505c61baaa" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="91442dc8-d272-4b36-a114-b03b4e98cf43" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Infernal_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="69f98070-1b6f-46f1-b636-76f78990b3f2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="07670392-118a-497e-9b05-51a6c7eff504" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHA_SharSpear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3ae83ce7-38eb-4184-a8b4-f04ce07845b8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5dd42236-63ab-4be3-8b92-ba677995a7b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_SHA_SeluneBlessing_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3ec56e49-8eb6-4731-a163-b79e0afc2f63" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10a88786-769c-42d8-841e-48484b1df269" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_SHA_SharBlessing_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42fca697-dd3a-4cbe-9a89-7c9b6688214f" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d09c493f-fe08-49ea-bb14-d88d10b86d7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_Wave_Trident" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4f26087c-74f0-44eb-88b8-92c33df0b8b7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c463180-8eeb-41bf-84ea-f3fd4827d15d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_TheThorns_Trident" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="27961839-0efb-467a-bcf3-11657d06b4f2" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f538319-b703-4851-bc73-1422e48bf684" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_KC_Elder_Warpick" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a9b166b-d1a0-44be-8d39-5d41818a6785" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ef9d9f8-4720-4b86-b4e7-55445763bb8e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Revitalizing_Warpick" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1f8e379f-3fe4-4c44-b045-c9af79386552" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e8799f55-82a1-4ca4-8dca-1477717bf206" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Warhammer_1_Uncommon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3bcade0a-79fd-4fe0-8a3c-fac39caa40aa" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ddf32eb2-2b81-446c-bdd9-52b77fb77d0b" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_GoblinKing_Warhammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="96978462-7533-4bde-8c7c-e8bbc70a698d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cfa6043c-65ec-460c-8073-f2a678e89442" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_DuergarRaft_GruesomeHammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d773cae8-35b3-4569-80f1-a60f102f3d24" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9d05adb5-4d77-4c94-8515-f3e5b092dfce" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Bonded_Shocking_Warhammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9da09f1d-4d37-4ad9-a999-877d87472975" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5717a30-2e08-46aa-b667-ce07ad3abef7" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_WYR_Circus_ClownHammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b010bedb-b5b2-4a5c-b18e-2a61c4d10cd0" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="59ff78d8-86b0-41ab-8d31-4f46501fab8b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Tyrrant_Warhammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6bfc09d8-800a-447d-acc8-78de89c9b712" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac5b3409-2337-4f2b-ae42-387c0447206e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Ketheric_Warhammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="23f71d6f-1d70-4f4b-9098-aa50759f25e7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74931283-1406-49d1-bd3a-1604717ad935" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_PHB_DwarvenThrower_Warhammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04fdbd21-466e-419f-9325-626f57f9b5e7" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_PHB_DwarvenThrower_Passive;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba037c01-fcd6-415d-9a39-1c87f33690eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOW_OrphicHammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="88ec21ad-b582-44a7-bd57-c9f9bd740b30" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1b5eeb9-c816-43df-82a2-2dfe29ec2520" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Quaterstaff_Dryad_ConjureWoodlandBeings" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68c84962-5d09-4c36-b1a6-baf61bf97e01" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b61f3c6e-a224-4af8-ad16-51b3799e7715" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="ApplyStatus(ENSNARED,100,1,,,,not SavingThrow(Ability.Dexterity,13))" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="3d6" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0806598c-d737-4a6a-8610-f8b9356a7586" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Djinni_Scimitar_PlanarAlly" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04d79ec4-4fd9-4105-b43c-7391ea6fbfa9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="96f7647b-7485-4c0c-aaad-73a332d8e626" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);WeaponDamage(2d10, Poison);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9d143c1c-f692-46a7-8039-f0ac2ff26fb3" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Flail_Air_Myrmidon_ConjureElemental" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7d46615c-b533-4da5-920f-451d994119e3" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponDamage(1d8,Lightning);WeaponProperty(Magical);" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8f8ad4f1-ee45-45f5-9368-3da979ada65a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15349acd-04ca-4da3-807f-cbbf688247d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Flail_Air_Myrmidon_Wildshape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7d46615c-b533-4da5-920f-451d994119e3" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponDamage(1d8,Lightning,Magical);WeaponProperty(Magical);" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="229dd0c4-6b13-4dbd-be48-0fedf292700a" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_LightningStrike_Myrmidon_Air)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f029591f-d57a-4a00-8906-71c5e9fd6c5d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar_Fire_Myrmidon_ConjureElemental" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b9dd0352-b43b-4a28-a1d7-1c56dba61d4d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cac16ce7-f5fd-4314-8b79-94b56d6a8a09" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponDamage(1d6,Fire);WeaponProperty(Magical);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8bfb5c3a-47cd-4d5e-b684-2a5ec17ce417" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar_Fire_Myrmidon_Wildshape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b9dd0352-b43b-4a28-a1d7-1c56dba61d4d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="19710a61-25df-4851-884e-1c33d2fa4d45" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponDamage(1d6,Fire,Magical);WeaponProperty(Magical);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FieryStrike_Wildshape_Myrmidon_Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e8293cfd-73fb-483a-9481-0340d0fa04ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Trident_Water_Myrmidon_ConjureElemental" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d3a0422f-5881-4046-9159-8597b342012a" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ba86b029-9232-4ad2-9e2d-9edcdd1d728b" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponDamage(1d6,Cold);WeaponProperty(Magical);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d86924e9-476d-46a8-bc78-705692543597" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Trident_Water_Myrmidon_WildShape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d3a0422f-5881-4046-9159-8597b342012a" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="639a6279-f487-4783-9381-493f63e66ade" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponDamage(1d6,Cold,Magical);WeaponProperty(Magical);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

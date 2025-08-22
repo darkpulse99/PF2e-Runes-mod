@@ -1,0 +1,93 @@
+local __util = require 'larian.util'
+
+function HasInterruptedCheck()
+	return ConditionResult(context.InterruptedRoll.RollType == ConditionRollType.ConditionCheck) | ConditionResult(context.InterruptedRoll.RollType == ConditionRollType.ConditionAbilityCheck) | ConditionResult(context.InterruptedRoll.RollType == ConditionRollType.ConditionSkillCheck)
+end
+
+function RunesApplicableWeapon()
+	local weapon = GetActiveWeapon()
+	return (~Tagged('NORUNES',weapon) & ((HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY',0)) | (HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY_2',0))))
+end
+
+function RunesApplicableHandwraps()
+	local handwraps = GetItemInEquipmentSlot(EquipmentSlot.Gloves)
+	return (~Tagged('NORUNES',handwraps) & ((HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},handwraps) & StatusDurationEqualOrLessThan(handwraps,'WEAPON_POTENCY',0)) | (HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},handwraps) & StatusDurationEqualOrLessThan(handwraps,'WEAPON_POTENCY_2',0))))
+end
+
+function RunesApplicableArmor()
+	local armor = GetActiveArmor()
+	return (~Tagged('NORUNES',armor) & ((HasAnyStatus({}, {'ARMOR_POTENCY','PROPERTY_RUNES_0'}, {},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY',0)) | (HasAnyStatus({'ARMOR_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY_2',0))))
+end
+
+function IsWeaponDamageDieD4(weapon)
+	local weapon = weapon or context.Source
+	local owner = GetOwner(weapon)
+	return HasAnyTags({
+		'WPN_DAGGER', 'WPN_SICKLE'
+	}, weapon) | (HasAnyTags({
+		'WPN_STAVE'
+	}, weapon) & (DualWielder(owner) | HasShieldEquipped(owner)))
+end
+
+function IsWeaponDamageDieD6(weapon)
+	local weapon = weapon or context.Source
+	return HasAnyTags({
+		'WPN_CLUB', 'WPN_FLAIL', 'WPN_HANDAXE', 'WPN_HAND_CROSSBOW',
+		'WPN_JAVELIN', 'WPN_LIGHT_HAMMER', 'WPN_MACE', 'WPN_MORNINGSTAR',
+		'WPN_RAPIER', 'WPN_SCIMITAR', 'WPN_SHORTBOW', 'WPN_SHORTSWORD',
+		'WPN_SPEAR', 'WPN_WAR_PICK'
+	}, weapon)
+end
+
+function IsWeaponDamageDieD8(weapon)
+	local weapon = weapon or context.Source
+	local owner = GetOwner(weapon)
+	return HasAnyTags({
+		'WPN_BATTLEAXE', 'WPN_GLAIVE', 'WPN_GREATCLUB', 'WPN_LIGHT_CROSSBOW',
+		'WPN_LONGBOW', 'WPN_LONGSWORD', 'WPN_TRIDENT', 'WPN_WARHAMMER'
+	}, weapon) | (HasAnyTags({
+		'WPN_STAVE'
+	}, weapon) & ~(DualWielder(owner) | HasShieldEquipped(owner)))
+end
+
+function IsWeaponDamageDieD10(weapon)
+	local weapon = weapon or context.Source
+	return HasAnyTags({
+		'WPN_HALBERD', 'WPN_HEAVY_CROSSBOW', 'WPN_PIKE'
+	}, weapon)
+end
+
+function IsWeaponDamageDieD12(weapon)
+	local weapon = weapon or context.Source
+	return HasAnyTags({
+		'WPN_GREATAXE', 'WPN_GREATSWORD', 'WPN_MAUL'
+	}, weapon)
+end
+
+function HasImpactfulWeapon(entity)
+    local entity = entity or context.Target
+    local items = GetItemsInInventory(entity)
+    if items ~= nil then
+        for _, entity in ipairs(items.Items) do
+            if HasStatus('RUNE_IMPACTFUL',entity).Result then
+                return ConditionResult(true)
+            end
+        end
+    end
+
+    return ConditionResult(false)
+end
+
+function HasHolyWeapon(entity)
+    local entity = entity or context.Target
+    local items = GetItemsInInventory(entity)
+    if items ~= nil then
+        for _, entity in ipairs(items.Items) do
+            if HasStatus('RUNE_HOLY',entity).Result then
+                return ConditionResult(true)
+            end
+        end
+    end
+
+    return ConditionResult(false)
+end

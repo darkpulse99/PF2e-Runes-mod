@@ -1,0 +1,304 @@
+treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
+new treasuretable "RunestonePouch_Whetstone"
+new subtable "1,1"
+object category "I_OBJ_Tool_Whetstone",1,0,0,0,0,0,0,0
+new treasuretable "ST_Runestones_All"
+new subtable "20,1"
+object category "I_OBJ_Runestone_WeaponPotency",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_WeaponPotency_2",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Striking",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Striking_Greater",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_ClearAll",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Reinforcing",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Crushing",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Crushing_Greater",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Returning",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Bane_Aberration",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Bane_Beast",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Bane_Construct",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Bane_Elemental",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Bane_Dragon",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Bane_Fiend",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Bane_Monstrosity",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Fearsome",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Fearsome_Greater",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Vitalizing",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Wounding",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Corrosive",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Flaming",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Frost",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Shock",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Thundering",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Extending",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Impactful",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Serrating",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Holy",1,0,0,0,0,0,0,0
+new subtable "20,1"
+object category "I_OBJ_Runestone_Hopeful",1,0,0,0,0,0,0,0
+new treasuretable "ST_Runestones_Fundamental"
+new subtable "5,1"
+StartLevel "2"
+EndLevel "9"
+object category "I_OBJ_Runestone_WeaponPotency",1,0,0,0,0,0,0,0
+new subtable "5,1"
+StartLevel "10"
+object category "I_OBJ_Runestone_WeaponPotency_2",1,0,0,0,0,0,0,0
+new subtable "5,1"
+StartLevel "4"
+EndLevel "11"
+object category "I_OBJ_Runestone_Striking",1,0,0,0,0,0,0,0
+new subtable "5,1"
+StartLevel "12"
+object category "I_OBJ_Runestone_Striking_Greater",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "4"
+object category "I_OBJ_Runestone_Reinforcing",1,0,0,0,0,0,0,0
+new treasuretable "ST_Runestones_Property"
+new subtable "3,1"
+StartLevel "3"
+EndLevel "8"
+object category "I_OBJ_Runestone_Crushing",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "9"
+object category "I_OBJ_Runestone_Crushing_Greater",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "3"
+object category "I_OBJ_Runestone_Returning",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "4"
+object category "I_OBJ_Runestone_Bane_Aberration",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "4"
+object category "I_OBJ_Runestone_Bane_Beast",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "4"
+object category "I_OBJ_Runestone_Bane_Construct",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "4"
+object category "I_OBJ_Runestone_Bane_Dragon",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "4"
+object category "I_OBJ_Runestone_Bane_Elemental",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "4"
+object category "I_OBJ_Runestone_Bane_Fiend",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "4"
+object category "I_OBJ_Runestone_Bane_Monstrosity",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "5"
+EndLevel "11"
+object category "I_OBJ_Runestone_Fearsome",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "12"
+object category "I_OBJ_Runestone_Fearsome_Greater",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "5"
+object category "I_OBJ_Runestone_Vitalizing",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "7"
+object category "I_OBJ_Runestone_Wounding",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "8"
+object category "I_OBJ_Runestone_Corrosive",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "8"
+object category "I_OBJ_Runestone_Flaming",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "8"
+object category "I_OBJ_Runestone_Frost",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "8"
+object category "I_OBJ_Runestone_Shock",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "8"
+object category "I_OBJ_Runestone_Thundering",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "9"
+object category "I_OBJ_Runestone_Extending",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "10"
+object category "I_OBJ_Runestone_Impactful",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "10"
+object category "I_OBJ_Runestone_Serrating",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "11"
+object category "I_OBJ_Runestone_Holy",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "11"
+object category "I_OBJ_Runestone_Hopeful",1,0,0,0,0,0,0,0
+new treasuretable "ST_Runestones"
+new subtable "1,1"
+StartLevel "2"
+object category "T_ST_Runestones_Fundamental",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "2"
+object category "T_ST_Runestones_Property",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "2"
+object category "I_OBJ_Backpack_RunestonePouch",1,0,0,0,0,0,0,0
+new treasuretable "ST_Handwraps"
+new subtable "3,1"
+StartLevel "2"
+EndLevel "3"
+object category "I_ARM_Handwraps_1",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "4"
+EndLevel "9"
+object category "I_ARM_Handwraps_2",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "10"
+EndLevel "11"
+object category "I_ARM_Handwraps_3",1,0,0,0,0,0,0,0
+new subtable "3,1"
+StartLevel "12"
+object category "I_ARM_Handwraps_4",1,0,0,0,0,0,0,0
+new treasuretable "EquipmentTrader_SecondaryArmor"
+new subtable "1,1"
+object category "T_EquipmentTrader_SecondaryArmor_Metal",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_EquipmentTrader_SecondaryArmor_Leather",1,0,0,0,0,0,0,0
+new treasuretable "EquipmentTrader_Shield"
+new subtable "1,1"
+object category "I_ARM_Shield",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+EndLevel "6"
+object category "I_ARM_Shield_1",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "7"
+EndLevel "9"
+object category "I_ARM_Shield_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "10"
+object category "I_ARM_Shield_3",1,0,0,0,0,0,0,0
+new treasuretable "ST_SimpleMeleeWeapons_1"
+CanMerge 1
+new treasuretable "DEN_Weaponsmith_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_ST_Handwraps",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_EquipmentTrader_Shield",1,0,0,0,0,0,0,0
+new treasuretable "GOB_Quartermaster"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_ST_Handwraps",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_EquipmentTrader_Shield",1,0,0,0,0,0,0,0
+new treasuretable "PLA_ZhentarimTrader_Extra"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_ST_Handwraps",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_EquipmentTrader_Shield",1,0,0,0,0,0,0,0
+new treasuretable "UND_MycoVillage_AlchemistDwarf_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new treasuretable "UND_KC_Trader_Weapons"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new treasuretable "CRE_GithQuartermistress_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_ST_Handwraps",1,0,0,0,0,0,0,0
+new treasuretable "HAV_HarperQuarterMaster"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_ST_Handwraps",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_EquipmentTrader_Shield",1,0,0,0,0,0,0,0
+new treasuretable "MOO_BugBearvendor_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_ST_Handwraps",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_EquipmentTrader_Shield",1,0,0,0,0,0,0,0
+new treasuretable "WYR_OrinsImpersonation_Smith"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_ST_Handwraps",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_EquipmentTrader_Shield",1,0,0,0,0,0,0,0
+new treasuretable "WYR_Danthelon_Trader"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_ST_Handwraps",1,0,0,0,0,0,0,0
+new treasuretable "WYR_FlamingFist_Quartermaster_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_EquipmentTrader_Shield",1,0,0,0,0,0,0,0
+new treasuretable "LOW_SteepsTrader_Armor"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_EquipmentTrader_Shield",1,0,0,0,0,0,0,0
+new treasuretable "LOW_SteepsTrader_Weapons"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_ST_Handwraps",1,0,0,0,0,0,0,0
+new treasuretable "END_CircusTrader"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_Runestones",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_ST_Handwraps",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_EquipmentTrader_Shield",1,0,0,0,0,0,0,0
+new treasuretable "LOW_JaheiraHouse_Chest"
+new subtable "-1"
+object category "I_MAG_LC_OfTheRam_Quarterstaff",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_MAG_PHB_OfSpeed_Scimitar",1,0,0,0,0,0,0,0

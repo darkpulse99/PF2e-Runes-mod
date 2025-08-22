@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="dcfbbbc8-3055-550e-d8df-37129915490e"/>
+            <attribute id="Name" type="LSString" value="Pathfinder2eRunes"/>
+            <attribute id="UUID" type="LSString" value="379299c9-c26c-d2ed-3f66-cbcfb8f30b75"/>
+            <attribute id="UpdatedDependencies" type="bool" value="true"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

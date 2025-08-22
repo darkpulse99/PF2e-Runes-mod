@@ -1,0 +1,9 @@
+new entry "Projectile_Rune_Shock_Critical"
+type "SpellData"
+data "SpellType" "Projectile"
+data "SpellProperties" "ApplyStatus(RUNE_SHOCK_TECHNICAL,100,1);"
+data "ExplodeRadius" "3"
+data "TargetConditions" "Character() and not Dead() and not HasStatus('RUNE_SHOCK_TARGET');"
+data "Trajectories" "4af71ae2-8ee7-422e-adcb-bafbdcdbf489"
+data "CastTextEvent" "Cast"
+

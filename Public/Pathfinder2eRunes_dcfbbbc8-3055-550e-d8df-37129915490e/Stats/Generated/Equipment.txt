@@ -1,0 +1,5 @@
+new equipment "EQP_Ninefingers"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body_2"
+

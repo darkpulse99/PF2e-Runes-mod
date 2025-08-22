@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="Name" type="NameTableFieldDefinition" value="_Runestone" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2846ca14-27c0-468a-af54-fa6c4679d497" />
+        <field name="ItemUseType" type="EnumerationTableFieldDefinition" value="Consumable" enumeration_type_name="ItemUseTypes" version="1" />
+        <field name="UseConditions" type="StringTableFieldDefinition" value="not IsSummon() and not Combat();" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b559c5ff-1503-41a4-a40e-d21017a0b101" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_WeaponPotency" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6aae2e5c-e51b-4bc7-b7aa-a27f10bf07bd" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="35" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a365715-91ea-4178-8b85-8b171da63ddb" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_WeaponPotency_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b559c5ff-1503-41a4-a40e-d21017a0b101" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_10" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0962c2a5-ad76-44e2-b58d-e7d8c4856168" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="935" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f02b85f2-c7b8-4012-9f68-0dda42d83d03" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Striking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_4" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d06cea5b-ec37-4ba2-a940-4930847fdb7a" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="65" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e704495e-952f-46d3-8a4b-56a5daf487b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Striking_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f02b85f2-c7b8-4012-9f68-0dda42d83d03" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_12" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="249a5ef7-0a26-470e-a222-cbb357df02ea" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1065" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f04e9bd6-e7ca-4a1a-80ea-9fc9943a9399" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_ClearAll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="296d2d85-60a4-49a8-be9a-c629715bca3c" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="100" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3e63604-e68c-4a58-a3f3-b1917a91e767" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Reinforcing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_4" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0c42fdd7-816d-42a2-9124-86b2fde3f948" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="75" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a8aa0f6-487d-40ef-8a54-7a6d48b5bb5e" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Reinforcing_Lesser" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="604d318d-a737-41c6-b347-2e590e5f633e" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="300" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="87b9bef9-86ec-4da9-9a7b-7bf359f1d7d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Reinforcing_Moderate" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b47a8bae-50a2-40b9-871b-3cf5dbdd941d" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="900" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f8ef2aa-f270-45f9-ad4e-9ba61c45ff6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Crushing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_3" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7d3c2723-7800-4adc-95a2-6deae39d0a61" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="50" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="52862e89-6003-4679-be02-23dfbbd881e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Crushing_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="571625f6-0295-48c0-a490-e1b859a541f3" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="650" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1fcb5cb1-516e-4bac-8e8c-d97949693940" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Returning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_3" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cd82d57d-9eb1-41f2-b16d-9b04b7221497" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="55" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e845dfbb-d201-4125-98f3-20870e3b1902" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Bane_Aberration" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d52b9b84-826b-444c-bd39-4c748f008cbe" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_4" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="100" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38ec4c2f-31c2-4869-b6bb-f96d2445e41a" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Bane_Beast" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e845dfbb-d201-4125-98f3-20870e3b1902" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8ab4dbe2-1853-4687-b170-9396e49bab44" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69ce94d5-be1b-4e5d-9dfe-6d2b186c5611" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Bane_Construct" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e845dfbb-d201-4125-98f3-20870e3b1902" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6e3db275-fccb-4907-9e6b-1d8ab82c7320" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bcaaa359-87e3-4014-a436-7f42dfa4ddb8" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Bane_Dragon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e845dfbb-d201-4125-98f3-20870e3b1902" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="afe7ec2c-c7ef-4b9b-aa29-f57461de8b61" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="806526ae-25bd-4625-9ede-7df2e3e703c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Bane_Elemental" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e845dfbb-d201-4125-98f3-20870e3b1902" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="906609a8-56cb-41fe-bfb1-091329960cb7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2fa9fb81-ff74-4dbd-bd5d-23730344a747" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Bane_Fiend" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e845dfbb-d201-4125-98f3-20870e3b1902" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="317faf06-8be0-4b03-9e2e-33edf3dee72b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0ad37c3-692e-458e-a0bb-b9c0d5070710" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Bane_Monstrosity" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e845dfbb-d201-4125-98f3-20870e3b1902" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0ecb68f8-af09-4cba-85ae-aceb178019c9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1ca1490-3ebc-4e58-b9da-55433a3b6dc2" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Fearsome" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_5" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="31b01c1a-1f80-4e1b-9d5e-b5ad87c772c3" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="160" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28c6c945-68aa-446b-88d3-6d9a6a3ed8b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Fearsome_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_12" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d03d73fc-dc1a-4231-b3e1-966ae3612b12" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="2000" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e90320c-4617-481e-af07-23d659241334" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Vitalizing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_5" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7dbf5380-23bf-4ab7-8047-f613ddbf6830" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="150" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="59162da2-31b4-43c3-98bd-0c51b5f97192" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Wounding" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_7" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="62ff4e5c-6d78-4cdb-92f8-8015350d5957" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="340" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b2009eb6-a8f6-40dd-9d0e-5bcfcb8701f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Corrosive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_8" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="369886c7-fd6e-41e1-a432-7ba87dfa66dd" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c1b44c99-5b9f-4942-ae3e-993fd13cd3df" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Flaming" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_8" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ac9aa7f2-6083-4b19-804c-0d6e6947a3fc" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ac76251-191e-405a-9d51-906d1c35a8f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Frost" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_8" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0bc5775d-6f91-478b-8d25-297badd96498" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53724c8b-bea1-401c-ab67-911078888471" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Shock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_8" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c2d8fe0d-c3bb-4558-a88d-ec4540c6caa5" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="acd21ce2-00a9-4f60-99cb-d396b1054a93" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Thundering" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_8" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="74a0118f-8c55-4322-b9ff-22b8562c0644" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8fc2ff1e-c944-4092-9e6e-ada3468a0c30" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Extending" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0d719d20-804c-4f99-b06f-0b1d7b02d07b" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="700" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_9" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f9272c3-8ab8-4082-9f58-27201cacbc91" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Impactful" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="12893105-da10-4c8f-994e-fcb0d4f80f52" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1000" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_10" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c65cbc42-cfb9-4a6a-8ae9-2090f8a26278" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Serrating" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="62af2315-4c72-4c67-ac2a-6cdd44d336d6" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1000" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_10" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4fe95409-57e6-4a4a-afca-5cdc0978f204" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Holy" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f59f4a68-d79c-4097-889d-0ce74a651a0c" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1400" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_11" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3436bf8-d456-4e68-9787-0ee2108284cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Hopeful" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="96f93d5c-fe65-4ef6-8171-80f5061b69a8" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1200" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_11" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ef0b632-ea5e-4ac3-8e70-49bd02b07bf4" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Chest_Runestones" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="996cfbdd-07e1-4e40-bfd5-e6a4f70f3c34" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a80b63cf-fb84-452a-9cdf-1b6449f5cb41" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9593c4c6-4c90-4141-817a-024cf2cb6655" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Tool_Whetstone" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c9bf8072-577e-44d8-8ce8-3a8f1e8c76d4" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="14053a44-611e-4b7d-a853-9beac0aa6c1a" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="aba2b73e-a68a-4c0a-a76b-f7d56aecdde6" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="UseConditions" type="StringTableFieldDefinition" value="not IsSummon() and not Combat();" />
+        <field name="StatusInInventory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="702d20a8-573a-4749-be49-684c2b623bca" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Backpack_RunestonePouch" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5d40bede-ca1a-469a-aa47-05d4319d8fc7" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e1bf81c4-0c2a-417f-9196-ff6dea67dcf7" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.2" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="-1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

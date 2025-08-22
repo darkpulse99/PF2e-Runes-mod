@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="102dbf9e-1226-41c7-8eb7-eb3a7de79ef9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf036aaa-8c14-4ade-bec1-ff76d89e1d88" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ff893a55-66f5-4729-addf-dcb6502abcdd" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="35" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="70f2e3b5-c298-4cfa-a259-6c8b615d44d6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="102dbf9e-1226-41c7-8eb7-eb3a7de79ef9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f40a03d9-dd87-467a-9d41-d3030d117f76" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="daaa2013-ea7f-4bc4-ab62-14ea2905c999" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="102dbf9e-1226-41c7-8eb7-eb3a7de79ef9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d1081bb9-1fea-47db-8d1e-b204596577c5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1000" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5bfa537-4c28-499a-8cb0-b073914a2c21" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="102dbf9e-1226-41c7-8eb7-eb3a7de79ef9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="42c047c0-1285-4106-8aa0-cc7fedce8654" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="2000" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b2b6b8d3-d8b8-47fe-896b-1227ec67040e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Shield_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="778fe0c1-0695-4aaa-9b4e-40de05a90e6b" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="100" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a5c7a6a-395e-4c0a-9f2b-5b3b195d5551" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Shield_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="10ab5906-dbb7-4a55-b151-a1a22af428c5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="360" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="23bbd3ad-51c8-44b7-9601-a785d9b09d64" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Shield_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ce7428f5-429e-411a-ae02-c7efc1f23d04" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1000" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

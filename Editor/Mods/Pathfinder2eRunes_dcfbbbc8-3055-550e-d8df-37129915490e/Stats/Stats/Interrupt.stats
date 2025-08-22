@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c496009d-a970-44a3-b882-7ed3364dc271">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="afd08539-b612-4151-ab9d-3d47aa20ba0e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ShieldBlock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="77491e14-ef33-4e82-a07c-ff77b4daa530" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h79cd45e7g14ffge15cg5483g30288fa7d68b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd1e0216cgae77g96f9g5219g851d592b6598" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ShieldMaster_Block" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and IsAttack() and not IsSpell() and (HasStatus('RAISE_SHIELD',context.Observer) or HasStatus('RAISE_SHIELD_SPIRIT',context.Observer) or HasStatus('ParagonShield',context.Observer));" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(not HasAnyTags({'STURDY_SHIELD_MINOR', 'STURDY_SHIELD_LESSER', 'STURDY_SHIELD_MODERATE'}, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)) and not HasStatus('REINFORCING', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-5);IF(Tagged('STURDY_SHIELD_MINOR', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)) or HasStatus('REINFORCING', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-8);IF(Tagged('STURDY_SHIELD_LESSER', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-10);IF(Tagged('STURDY_SHIELD_MODERATE', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-13);IF(HasPassive('BlessedShield',context.Observer) and not (HasStatus('REINFORCING', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)) or HasAnyTags({'STURDY_SHIELD_MINOR', 'STURDY_SHIELD_LESSER', 'STURDY_SHIELD_MODERATE'}, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)))):AdjustRoll(-3);IF(HasPassive('BlessedShield',context.Observer) and (HasStatus('REINFORCING', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)) or HasAnyTags({'STURDY_SHIELD_MINOR', 'STURDY_SHIELD_LESSER', 'STURDY_SHIELD_MODERATE'}, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)))):AdjustRoll(-1);IF(HasStatus('EmblazonShieldStatus',context.Observer)):AdjustRoll(-1);IF(HasPassive('CorruptedShield',context.Observer)):DealDamage(OBSERVER_SOURCE,LevelMapValue(SongbirdsDamage),Necrotic,Magical);" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPreDamage" enumeration_type_name="InterruptContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03bb9dc7-1c41-4220-be8b-824b029636fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="QuickShieldBlockInterrupt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="afd08539-b612-4151-ab9d-3d47aa20ba0e" />
+        <field name="Cost" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he0d59342g5c95g442ag916aga308ab10808d" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01fc0c8a-4eee-4ed6-baa6-9b9bc562800f" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneImpactful_Critical" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc515414ag4383gf9ddg9f89g0455872d1181" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0c135ea2g6216g6598g9438gcb9e5f32af95" version="1" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Far" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Source, context.Observer) and (HasStatus('RUNE_IMPACTFUL',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_IMPACTFUL',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_IMPACTFUL',context.HitDescription.ThrownObject)) and IsCritical();" />
+        <field name="Roll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 17)" />
+        <field name="Success" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_TARGET,RUNE_IMPACTFUL_PUSH,100,1);" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9b121c4-7e20-4d6f-a6bb-779a7912ce3f" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneHoly_Critical" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb963c7ebgaa33g6d54gcdd4g9f9613a0fcee" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6611ca68g4f4bg9e87gdf91g83e83dcb4d12" version="2" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Far" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Source, context.Observer) and (HasStatus('RUNE_HOLY',GetAttackWeapon()) or (IsMeleeUnarmedAttack() and HasStatus('RUNE_HOLY',GetItemInEquipmentSlot(EquipmentSlot.Gloves))) or HasStatus('RUNE_HOLY',context.HitDescription.ThrownObject)) and (Tagged('FIEND',context.Target) or Tagged('UNDEAD',context.Target)) and IsCritical();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(SWAP,RUNE_HOLY_HEALING,100,0);ApplyStatus(OBSERVER_OBSERVER,RUNE_HOLY_HEALING_BLOCK,100,-1);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="not HasStatus('RUNE_HOLY_HEALING_BLOCK');" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
